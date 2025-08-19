@@ -1,0 +1,6 @@
+Cilem je udelat webovou stranku v reactu abych mohl pouzit builder.io plugin ve vs code
+Budu ji pak hostovat na vercelu 
+V ui.png je design jak by mela vypadat
+Bude to pouze jedna stranka se scrollem, zadne podstranky
+Stranka je logicky clenena na jednotlive sekce. Rad bych je nejak logicky usporadal i v kodu
+Jedne se o web pro konferenci, kterou budeme poradat
