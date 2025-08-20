@@ -13,7 +13,7 @@ function App() {
       <section id="home" className="relative bg-gradient-to-br from-orange-50 to-orange-100 overflow-hidden">
         {/* Navigation with white background */}
         <nav className="bg-white shadow-sm relative z-10">
-          <div className="max-w-7xl mx-auto px-6 lg:px-12 py-4 flex justify-between items-center">
+          <div className="max-w-screen-xl mx-auto px-6 lg:px-12 py-4 flex justify-between items-center">
             <div className="flex space-x-8 text-sm">
               <a href="#home" className="text-gray-700 hover:text-orange-600">Home</a>
               <a href="#about" className="text-gray-700 hover:text-orange-600">About</a>
@@ -29,7 +29,7 @@ function App() {
         </nav>
 
         {/* Hero content with container and reduced height */}
-        <div className="max-w-7xl mx-auto px-6 lg:px-12 py-20 lg:py-32">
+        <div className="max-w-screen-xl mx-auto px-6 lg:px-12 py-20 lg:py-32">
           <div className="flex items-center justify-between">
             <div className="max-w-lg">
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
@@ -55,7 +55,7 @@ function App() {
 
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-8">
@@ -83,7 +83,7 @@ function App() {
 
       {/* Features Section */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
             Nadpis sekce
           </h2>
@@ -111,7 +111,7 @@ function App() {
 
       {/* Program Section */}
       <section id="program" className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-6 lg:px-12">
+        <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
             Program konference
           </h2>
@@ -180,7 +180,7 @@ function App() {
 
       {/* Speakers Section */}
       <section id="speakers" className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
             Naši řečníci
           </h2>
@@ -247,7 +247,7 @@ function App() {
 
       {/* Pricing Section */}
       <section id="pricing" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
             Nadpis sekce
           </h2>
@@ -326,7 +326,7 @@ function App() {
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
             Kontakt
           </h2>
@@ -416,7 +416,7 @@ function App() {
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-16">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <div className="grid lg:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold mb-6">Hack Your Way Into</h3>
