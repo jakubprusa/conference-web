@@ -185,51 +185,55 @@ function App() {
             Naši řečníci
           </h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
             {[
               {
-                name: "Dr. Ana Kovačić",
-                title: "Chief Technology Officer",
-                company: "TechFlow Solutions",
-                bio: "Passionate technology expert with 15+ years of experience in digital transformation and AI implementation.",
-                image: "👩‍💼"
+                name: "Martin Kavka",
+                title: "Expert na efektivní komunikaci",
+                bio: "Martin pomáhá profesionálům a značkám psát tak, aby jejich texty lidé četli, rozuměli jim a jednali podle nich. Věří, že v době informačního přetížení jsou jasnost a srozumitelnost našimi superschopnostmi.",
+                image: "/speakers/Martin-Kavka.jpg"
               },
               {
-                name: "Marko Novak Petrov",
-                title: "Innovation Director",
-                company: "Digital Dynamics",
-                bio: "Expert in Digital Marketing with a focus on data-driven customer acquisition and retention strategies.",
-                image: "👨‍💻"
+                name: "Hanka Slačálková",
+                title: "Expertka na značku zaměstnavatele",
+                bio: "Hanka ukazuje firmám, že značku netvoří jen kampaně, ale každý drobný moment kontaktu. Specializuje se na to, jak z obyčejné reakce udělat zážitek, který si lidé zapamatují.",
+                image: "/speakers/Hana-Slačálková.jpg"
               },
               {
-                name: "Sandra Svoboda",
-                title: "Product Strategy Lead",
-                company: "InnovateCorp",
-                bio: "Senior Product Strategist specializing in market analysis and product development for emerging technologies.",
-                image: "👩‍💼"
+                name: "Hana Švábíková",
+                title: "Specialistka na nenásilnou komunikaci",
+                bio: "Hana učí, že i ta nejtěžší zpráva se dá říct tak, aby druhý slyšel, chápal a chtěl spolupracovat. Pomáhá týmům zklidnit konfliktní situace a hledat porozumění místo sporu.",
+                image: "/speakers/Hana-Švábíková.jpg"
               },
               {
-                name: "David Černý",
-                title: "AI Research Scientist",
-                company: "Future Labs",
-                bio: "Leading AI researcher focused on machine learning applications in business communication and automation.",
-                image: "👨‍🔬"
+                name: "Olinka Vlachynská",
+                title: "Terapeutka a průvodkyně náročnými rozhovory",
+                bio: "Olinka používá zdravý rozum, silné otázky a schopnost naslouchat. Umí složité věci vysvětlit jednoduše a provede vás nepříjemnými rozhovory s respektem a jistotou.",
+                image: "/speakers/Olinka-Vlachynská.jpg"
+              },
+              {
+                name: "Václav Strnadel",
+                title: "Business Storytelling & Leadership Trainer",
+                bio: "Vašek pomáhá lídrům měnit složitá data v příběhy, které lidé chápou a pamatují si je. Specializuje se na to, jak z obyčejné prezentace udělat nezapomenutelný zážitek.",
+                image: "/speakers/Václav-Strnadel.jpg"
               }
             ].map((speaker, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-                <div className="h-64 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-                  <span className="text-6xl">{speaker.image}</span>
+                <div className="h-64 relative overflow-hidden bg-gray-100">
+                  <img 
+                    src={speaker.image} 
+                    alt={speaker.name}
+                    className="w-full h-full object-cover object-center"
+                    style={{ objectPosition: 'center 20%' }}
+                  />
                 </div>
                 
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     {speaker.name}
                   </h3>
-                  <p className="text-orange-600 font-semibold mb-1">
+                  <p className="text-orange-600 font-semibold mb-4 text-sm">
                     {speaker.title}
-                  </p>
-                  <p className="text-gray-600 text-sm mb-4">
-                    {speaker.company}
                   </p>
                   <p className="text-gray-600 text-sm leading-relaxed">
                     {speaker.bio}
