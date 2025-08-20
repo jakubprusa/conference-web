@@ -414,23 +414,26 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-16">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
-          <div className="grid lg:grid-cols-2 gap-12 mb-12">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             <div>
-              <h3 className="text-2xl font-bold mb-6">Hack Your Way Into</h3>
-              <p className="text-gray-300 mb-8 leading-relaxed">
-                Subscribe to our newsletter for the latest updates about upcoming conferences.
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4">
-                <input
-                  type="email"
-                  placeholder="Enter your email address"
-                  className="flex-grow px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:border-orange-600"
-                />
-                <button className="bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors">
-                  Subscribe
-                </button>
-              </div>
+              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                OP video a stream
+              </a>
+            </div>
+            <div>
+              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                ZOOÚ video a stream
+              </a>
+            </div>
+            <div>
+              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                Obchodní podmínky
+              </a>
+            </div>
+            <div>
+              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                Zásady ochrany osobních údajů
+              </a>
             </div>
           </div>
           
