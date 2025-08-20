@@ -38,9 +38,9 @@ function App() {
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <button className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors">
+              <a href="#pricing" className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors inline-block">
                 Secure your spot
-              </button>
+              </a>
             </div>
 
             <div className="hidden lg:block relative">
@@ -118,24 +118,23 @@ function App() {
           
           <div className="space-y-4">
             {[
-              { time: "09:00 - 09:30", title: "Registration and Welcome Coffee", speaker: "Event Team", type: "registration" },
-              { time: "09:30 - 10:30", title: "Keynote: Future of Communication", speaker: "Dr. Jane Smith", type: "keynote" },
-              { time: "10:30 - 10:45", title: "Coffee Break", speaker: "", type: "break" },
-              { time: "10:45 - 11:30", title: "AI in Modern Communication", speaker: "John Doe", type: "talk" },
-              { time: "11:30 - 12:15", title: "Digital Transformation Strategies", speaker: "Sarah Johnson", type: "talk" },
-              { time: "12:15 - 13:15", title: "Lunch Break", speaker: "", type: "break" },
-              { time: "13:15 - 14:00", title: "Workshop: Communication Tools", speaker: "Mike Wilson", type: "workshop" },
-              { time: "14:00 - 14:45", title: "Panel: Industry Leaders Discussion", speaker: "Various Speakers", type: "panel" },
-              { time: "14:45 - 15:00", title: "Coffee Break", speaker: "", type: "break" },
-              { time: "15:00 - 15:45", title: "Closing Keynote & Q&A", speaker: "Dr. Robert Brown", type: "keynote" }
+              { time: "09:00", title: "Kávíčka na bílém, úsměv na všech", speaker: "", type: "start" },
+              { time: "09:00 - 10:00", title: "Terapie a průvodkyně náročnými rozhovory", speaker: "Olinka Vlachynská", type: "talk" },
+              { time: "10:00 - 10:15", title: "Pauza na proklepání poznatků", speaker: "", type: "break" },
+              { time: "10:15 - 11:15", title: "Expertka na značku zaměstnavatele", speaker: "Hana Slačálková", type: "talk" },
+              { time: "11:20 - 12:20", title: "Expert na efektivní komunikaci", speaker: "Martin Kavka", type: "talk" },
+              { time: "12:20 - 13:30", title: "Pauza na oběd a síťování", speaker: "", type: "break" },
+              { time: "13:30 - 14:30", title: "Specialistka na nenásilnou komunikaci", speaker: "Hana Švábíková", type: "talk" },
+              { time: "14:30 - 14:45", title: "Kafíčko a třeba něco sladkého", speaker: "", type: "break" },
+              { time: "14:45 - 15:45", title: "Business Storytelling & Leadership Trainer", speaker: "Václav Strnadel", type: "talk" },
+              { time: "16:00", title: "Networking a volná zábava - teď už si jen povídejte!", speaker: "", type: "networking" }
             ].map((item, index) => (
               <div 
                 key={index} 
                 className={`flex items-center p-6 rounded-lg border-l-4 ${
-                  item.type === 'keynote' ? 'border-orange-500' : 
-                  item.type === 'talk' ? 'border-blue-500' :
-                  item.type === 'workshop' ? 'border-green-500' :
-                  item.type === 'panel' ? 'border-purple-500' :
+                  item.type === 'start' ? 'border-green-500' :
+                  item.type === 'talk' ? 'border-orange-500' :
+                  item.type === 'networking' ? 'border-purple-500' :
                   'border-gray-300'
                 } bg-white shadow-sm hover:shadow-md transition-shadow`}
               >
@@ -158,17 +157,15 @@ function App() {
                 
                 <div className="flex-shrink-0">
                   <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                    item.type === 'keynote' ? 'text-orange-600 bg-orange-50' :
-                    item.type === 'talk' ? 'text-blue-600 bg-blue-50' :
-                    item.type === 'workshop' ? 'text-green-600 bg-green-50' :
-                    item.type === 'panel' ? 'text-purple-600 bg-purple-50' :
+                    item.type === 'start' ? 'text-green-600 bg-green-50' :
+                    item.type === 'talk' ? 'text-orange-600 bg-orange-50' :
+                    item.type === 'networking' ? 'text-purple-600 bg-purple-50' :
                     'text-gray-500 bg-gray-50'
                   }`}>
-                    {item.type === 'keynote' ? 'Keynote' :
-                     item.type === 'talk' ? 'Talk' :
-                     item.type === 'workshop' ? 'Workshop' :
-                     item.type === 'panel' ? 'Panel' :
-                     item.type === 'break' ? 'Break' :
+                    {item.type === 'start' ? 'Start' :
+                     item.type === 'talk' ? 'Přednáška' :
+                     item.type === 'networking' ? 'Networking' :
+                     item.type === 'break' ? 'Pauza' :
                      'Event'}
                   </span>
                 </div>
