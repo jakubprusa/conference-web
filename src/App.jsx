@@ -10,39 +10,45 @@ function App() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen bg-gradient-to-br from-orange-50 to-orange-100 overflow-hidden">
-        <nav className="flex justify-between items-center p-6 relative z-10">
-          <div className="flex space-x-8 text-sm">
-            <a href="#home" className="text-gray-700 hover:text-orange-600">Home</a>
-            <a href="#about" className="text-gray-700 hover:text-orange-600">About</a>
-            <a href="#program" className="text-gray-700 hover:text-orange-600">Program</a>
-            <a href="#speakers" className="text-gray-700 hover:text-orange-600">Speakers</a>
-            <a href="#pricing" className="text-gray-700 hover:text-orange-600">Pricing</a>
-            <a href="#contact" className="text-gray-700 hover:text-orange-600">Contact</a>
-          </div>
-          <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-colors">
-            Register now
-          </button>
-        </nav>
-
-        <div className="flex items-center justify-between px-6 lg:px-12 pt-20 pb-32 relative z-10">
-          <div className="max-w-lg">
-            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Naučte se moderně komunikovat!
-            </h1>
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <button className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors">
-              Secure your spot
+      <section id="home" className="relative bg-gradient-to-br from-orange-50 to-orange-100 overflow-hidden">
+        {/* Navigation with white background */}
+        <nav className="bg-white shadow-sm relative z-10">
+          <div className="max-w-7xl mx-auto px-6 lg:px-12 py-4 flex justify-between items-center">
+            <div className="flex space-x-8 text-sm">
+              <a href="#home" className="text-gray-700 hover:text-orange-600">Home</a>
+              <a href="#about" className="text-gray-700 hover:text-orange-600">About</a>
+              <a href="#program" className="text-gray-700 hover:text-orange-600">Program</a>
+              <a href="#speakers" className="text-gray-700 hover:text-orange-600">Speakers</a>
+              <a href="#pricing" className="text-gray-700 hover:text-orange-600">Pricing</a>
+              <a href="#contact" className="text-gray-700 hover:text-orange-600">Contact</a>
+            </div>
+            <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-colors">
+              Register now
             </button>
           </div>
+        </nav>
 
-          <div className="hidden lg:block relative">
-            <div className="w-96 h-96 bg-green-800 rounded-full flex items-center justify-center">
-              <span className="text-white text-6xl font-bold">fotka</span>
+        {/* Hero content with container and reduced height */}
+        <div className="max-w-7xl mx-auto px-6 lg:px-12 py-20 lg:py-32">
+          <div className="flex items-center justify-between">
+            <div className="max-w-lg">
+              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                Naučte se moderně komunikovat!
+              </h1>
+              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <button className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors">
+                Secure your spot
+              </button>
             </div>
-            <div className="absolute -bottom-16 -right-16 w-64 h-64 bg-orange-200 rounded-full opacity-80"></div>
+
+            <div className="hidden lg:block relative">
+              <div className="w-80 h-80 bg-green-800 rounded-full flex items-center justify-center">
+                <span className="text-white text-5xl font-bold">fotka</span>
+              </div>
+              <div className="absolute -bottom-12 -right-12 w-48 h-48 bg-orange-200 rounded-full opacity-80"></div>
+            </div>
           </div>
         </div>
       </section>
