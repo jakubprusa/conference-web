@@ -127,7 +127,7 @@ function App() {
               { time: "13:30 - 14:30", title: "Specialistka na nenásilnou komunikaci", speaker: "Hana Švábíková", type: "talk" },
               { time: "14:30 - 14:45", title: "Pauza - káva a občerstvení", speaker: "", type: "break" },
               { time: "14:45 - 15:45", title: "Business Storytelling & Leadership Trainer", speaker: "Václav Strnadel", type: "talk" },
-              { time: "16:00", title: "Networking a volná zábava", speaker: "", type: "networking" }
+              { time: "16:00", title: "Networking a volná zábava - teď už si jen povídejte!", speaker: "", type: "networking" }
             ].map((item, index) => (
               <div 
                 key={index} 
