@@ -22,9 +22,9 @@ function App() {
               <a href="#pricing" className="text-gray-700 hover:text-orange-600">Pricing</a>
               <a href="#contact" className="text-gray-700 hover:text-orange-600">Contact</a>
             </div>
-            <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-colors">
+            <a href="#pricing" className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-colors">
               Register now
-            </button>
+            </a>
           </div>
         </nav>
 
