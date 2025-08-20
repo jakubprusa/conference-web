@@ -215,8 +215,8 @@ function App() {
                 image: "/speakers/Václav-Strnadel.jpg"
               }
             ].map((speaker, index) => (
-              <div key={index} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-                <div className="h-64 relative overflow-hidden bg-gray-100">
+              <div key={index} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow flex flex-col h-full">
+                <div className="h-64 relative overflow-hidden bg-gray-100 flex-shrink-0">
                   <img 
                     src={speaker.image} 
                     alt={speaker.name}
@@ -225,14 +225,14 @@ function App() {
                   />
                 </div>
                 
-                <div className="p-6">
+                <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     {speaker.name}
                   </h3>
                   <p className="text-orange-600 font-semibold mb-4 text-sm">
                     {speaker.title}
                   </p>
-                  <p className="text-gray-600 text-sm leading-relaxed">
+                  <p className="text-gray-600 text-sm leading-relaxed flex-grow">
                     {speaker.bio}
                   </p>
                 </div>
