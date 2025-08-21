@@ -264,12 +264,12 @@ function App() {
               }
             ].map((speaker, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow flex flex-col h-full">
-                <div className="h-64 md:h-72 lg:h-64 relative overflow-hidden bg-gray-100 flex-shrink-0">
+                <div className="h-64 md:h-80 lg:h-64 relative overflow-hidden bg-gray-100 flex-shrink-0">
                   <img 
                     src={speaker.image} 
                     alt={speaker.name}
                     className="w-full h-full object-cover"
-                    style={{ objectPosition: 'center 25%' }}
+                    style={{ objectPosition: 'center 30%' }}
                   />
                 </div>
                 
