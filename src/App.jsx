@@ -342,7 +342,7 @@ function App() {
               <div key={index} className={`relative rounded-xl p-8 ${plan.popular ? 'bg-orange-50 border-2 border-orange-200 transform scale-105' : 'bg-white border border-gray-200'} shadow-lg hover:shadow-xl transition-all`}>
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-semibold">Nejvýhodnější</span>
+                    <span className="bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-semibold">Časově omezené</span>
                   </div>
                 )}
                 
