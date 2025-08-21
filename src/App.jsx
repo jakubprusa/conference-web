@@ -445,7 +445,9 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">E-mail</h4>
-                      <p className="text-gray-600">masterclass@rproduction.cz</p>
+                      <a href="mailto:masterclass@rproduction.cz" className="text-orange-600 hover:text-orange-700 underline">
+                        masterclass@rproduction.cz
+                      </a>
                     </div>
                   </div>
                   
