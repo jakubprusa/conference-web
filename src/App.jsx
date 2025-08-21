@@ -68,13 +68,25 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-8">
-                Nadpis sekce
+                Komunikace, která šlape na jedničku
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                This helps your team communicate with internal staff, external vendors, suppliers, and distributors.
+                Představte si, že po vašem e-mailu kandidát sám zavolá s tím, že má o pozici zájem.
+              </p>
+              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                Že váš tým konečně pochopí, co od něj chcete, a přestane se ptát na detaily.
+              </p>
+              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                Že zákazník po nepříjemném rozhovoru napíše: „Díky za upřímnost, takto to vyřešíme."
+              </p>
+              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                Že vaše prezentace na poradě skončí okamžitým souhlasem s rozpočtem.
+              </p>
+              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                Tohle nejsou náhody. Tohle je nová úroveň komunikace, která funguje.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed">
-                With advanced distribution and authentication, they check that enables organizations have feedback from all parts.
+                Na naší masterclass získáte konkrétní techniky, díky kterým se z běžných rozhovorů stanou momenty, které posunou vaše obchody i týmy dopředu. Bez zbytečných keců, s praktickými nástroji, které použijete hned zítra.
               </p>
             </div>
             
