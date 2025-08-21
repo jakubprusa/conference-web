@@ -200,40 +200,40 @@ function App() {
       <section id="speakers" className="py-20 bg-gray-50">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
-            Naši řečníci
+            Lektoři, kteří mají výsledky
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
             {[
               {
-                name: "Martin Kavka",
-                title: "Expert na efektivní komunikaci",
-                bio: "Martin pomáhá profesionálům a značkám psát tak, aby jejich texty lidé četli, rozuměli jim a jednali podle nich. Věří, že v době informačního přetížení jsou jasnost a srozumitelnost našimi superschopnostmi.",
-                image: "/speakers/Martin-Kavka.jpg"
+                name: "Olinka Vlachynská",
+                title: "Terapeutka a průvodkyně náročnými rozhovory",
+                bio: "Používá zdravý rozum, silné otázky a schopnost naslouchat – a díky tomu z vás dostane to podstatné. Navíc umí složité věci vysvětlit tak, aby je pochopila i vaše babička.",
+                image: "/speakers/Olinka-Vlachynská.jpg"
               },
               {
                 name: "Hanka Slačálková",
                 title: "Expertka na značku zaměstnavatele",
-                bio: "Hanka ukazuje firmám, že značku netvoří jen kampaně, ale každý drobný moment kontaktu. Specializuje se na to, jak z obyčejné reakce udělat zážitek, který si lidé zapamatují.",
+                bio: "Ukazuje firmám, že značku netvoří jen kampaně, ale každý drobný moment kontaktu. Specializuje se na to, jak z obyčejné reakce na e-mail udělat zážitek, který si lidé zapamatují.",
                 image: "/speakers/Hana-Slačálková.jpg"
               },
               {
-                name: "Hana Švábíková",
-                title: "Specialistka na nenásilnou komunikaci",
-                bio: "Hana učí, že i ta nejtěžší zpráva se dá říct tak, aby druhý slyšel, chápal a chtěl spolupracovat. Pomáhá týmům zklidnit konfliktní situace a hledat porozumění místo sporu.",
-                image: "/speakers/Hana-Švábíková.jpg"
-              },
-              {
-                name: "Olinka Vlachynská",
-                title: "Terapeutka a průvodkyně náročnými rozhovory",
-                bio: "Olinka používá zdravý rozum, silné otázky a schopnost naslouchat. Umí složité věci vysvětlit jednoduše a provede vás nepříjemnými rozhovory s respektem a jistotou.",
-                image: "/speakers/Olinka-Vlachynská.jpg"
+                name: "Martin Kavka",
+                title: "Expert na efektivní komunikaci",
+                bio: "Pomáhá firmám, úřadům i nezávislým profíkům psát tak, aby jejich texty lidé četli, rozuměli jim a jednali podle nich. Věří, že dobrá komunikace stojí na systému, ne náhodě.",
+                image: "/speakers/Martin-Kavka.jpg"
               },
               {
                 name: "Václav Strnadel",
                 title: "Business Storytelling & Leadership Trainer",
-                bio: "Vašek pomáhá lídrům měnit složitá data v příběhy, které lidé chápou a pamatují si je. Specializuje se na to, jak z obyčejné prezentace udělat nezapomenutelný zážitek.",
+                bio: "Pomáhá lídrům a expertům měnit složitá data a myšlenky v příběhy, které lidé hned pochopí. Specializuje se na to, jak z obyčejné prezentace udělat zážitek.",
                 image: "/speakers/Václav-Strnadel.jpg"
+              },
+              {
+                name: "Hana Švábíková",
+                title: "Specialistka na nenásilnou komunikaci",
+                bio: "Učí, že i ta nejtěžší zpráva se dá říct tak, aby druhý slyšel, pochopil a chtěl spolupracovat. Nenásilná komunikace pro ni není jen technika, ale způsob myšlení.",
+                image: "/speakers/Hana-Švábíková.jpg"
               }
             ].map((speaker, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow flex flex-col h-full">
