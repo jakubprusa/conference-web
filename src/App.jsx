@@ -337,6 +337,15 @@ function App() {
               </div>
             ))}
           </div>
+          
+          <div className="text-center mt-12">
+            <p className="text-gray-600 text-lg mb-2">
+              Je vás více z jedné firmy? Určitě nám napište a něco vymyslíme!
+            </p>
+            <a href="mailto:masterclass@rproduction.cz" className="text-orange-600 hover:text-orange-700 underline text-lg font-semibold">
+              masterclass@rproduction.cz
+            </a>
+          </div>
         </div>
       </section>
 
