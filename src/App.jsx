@@ -15,12 +15,12 @@ function App() {
         <nav className="bg-white shadow-sm relative z-10">
           <div className="max-w-screen-xl mx-auto px-6 lg:px-12 py-4 flex justify-between items-center">
             <div className="flex space-x-8 text-sm">
-              <a href="#home" className="text-gray-700 hover:text-orange-600">Home</a>
-              <a href="#about" className="text-gray-700 hover:text-orange-600">About</a>
+              <a href="#home" className="text-gray-700 hover:text-orange-600">Úvod</a>
+              <a href="#about" className="text-gray-700 hover:text-orange-600">O konferenci</a>
               <a href="#program" className="text-gray-700 hover:text-orange-600">Program</a>
-              <a href="#speakers" className="text-gray-700 hover:text-orange-600">Speakers</a>
-              <a href="#pricing" className="text-gray-700 hover:text-orange-600">Pricing</a>
-              <a href="#contact" className="text-gray-700 hover:text-orange-600">Contact</a>
+              <a href="#speakers" className="text-gray-700 hover:text-orange-600">Řečníci</a>
+              <a href="#pricing" className="text-gray-700 hover:text-orange-600">Vstupenky</a>
+              <a href="#contact" className="text-gray-700 hover:text-orange-600">Kontakt</a>
             </div>
             <a href="#pricing" className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-colors">
               Chci se přihlásit
