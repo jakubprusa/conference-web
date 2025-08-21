@@ -22,7 +22,7 @@ function App() {
               <a href="#pricing" className="text-gray-700 hover:text-orange-600">Vstupenky</a>
               <a href="#contact" className="text-gray-700 hover:text-orange-600">Kontakt</a>
             </div>
-            <a href="#pricing" className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-colors">
+            <a href="https://form.simpleshop.cz/oPX7J/buy/" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-colors">
               Chci se přihlásit
             </a>
           </div>
@@ -47,7 +47,7 @@ function App() {
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Přijďte si pro tipy, které byste běžně sbírali roky. Žádná ochutnávka – rovnou plná porce know-how.
               </p>
-              <a href="#pricing" className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors inline-block">
+              <a href="https://form.simpleshop.cz/oPX7J/buy/" target="_blank" rel="noopener noreferrer" className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors inline-block">
                 Chci se přihlásit
               </a>
             </div>
@@ -367,16 +367,27 @@ function App() {
                   ))}
                 </ul>
                 
-                <button 
-                  className={`w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors ${
-                    plan.name === "Standardní cena" 
-                      ? "bg-gray-300 text-gray-500 cursor-not-allowed" 
-                      : "bg-gray-900 text-white hover:bg-gray-800"
-                  }`}
-                  disabled={plan.name === "Standardní cena"}
-                >
-                  {plan.buttonText || "Register Now"}
-                </button>
+                {plan.name === "Early Bird" ? (
+                  <a 
+                    href="https://form.simpleshop.cz/oPX7J/buy/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors bg-gray-900 text-white hover:bg-gray-800 text-center"
+                  >
+                    {plan.buttonText || "Register Now"}
+                  </a>
+                ) : (
+                  <button 
+                    className={`w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors ${
+                      plan.name === "Standardní cena" 
+                        ? "bg-gray-300 text-gray-500 cursor-not-allowed" 
+                        : "bg-gray-900 text-white hover:bg-gray-800"
+                    }`}
+                    disabled={plan.name === "Standardní cena"}
+                  >
+                    {plan.buttonText || "Register Now"}
+                  </button>
+                )}
               </div>
             ))}
           </div>
