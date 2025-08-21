@@ -39,7 +39,7 @@ function App() {
                 Každý z nás umí komunikovat. Ale málokdo ví, jak z komunikace vytěžit maximum – jak mluvit tak, aby vám lidé rozuměli, důvěřovali vám a dělali to, co potřebujete.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Udělejte si čas 26. listopadu. Pro sebe, pro svůj tým, pro obchodní partnery, pro lepší výsledky.
+                Udělejte si čas 26. listopadu.<br />Pro sebe, pro svůj tým, pro obchodní partnery, pro lepší výsledky.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 Pět špičkových expertů vám během jednoho dne ukáže, jak z dobré komunikace udělat skvělou.
