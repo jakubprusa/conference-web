@@ -167,14 +167,14 @@ function App() {
           <div className="space-y-4">
             {[
               { time: "09:00", title: "Úvod konference a přivítání", speaker: "", type: "start" },
-              { time: "09:00 - 10:00", title: "Terapie a průvodkyně náročnými rozhovory", speaker: "Olga Vlachynská", type: "talk" },
+              { time: "09:00 - 10:00", title: "Jak říct klientovi nepříjemné věci, aniž byste ztratili obchod", speaker: "Olga Vlachynská", type: "talk" },
               { time: "10:00 - 10:15", title: "Pauza - káva a občerstvení", speaker: "", type: "break" },
-              { time: "10:15 - 11:15", title: "Expertka na značku zaměstnavatele", speaker: "Hana Slačálková", type: "talk" },
-              { time: "11:20 - 12:20", title: "Expert na efektivní komunikaci", speaker: "Martin Kavka", type: "talk" },
+              { time: "10:15 - 11:15", title: "Jak udělat z každého kontaktu s kandidátem konkurenční výhodu", speaker: "Hana Slačálková", type: "talk" },
+              { time: "11:20 - 12:20", title: "Jak ušetřit hodiny času při komunikaci s klienty", speaker: "Martin Kavka", type: "talk" },
               { time: "12:20 - 13:30", title: "Obědová pauza", speaker: "", type: "break" },
-              { time: "13:30 - 14:30", title: "Specialistka na nenásilnou komunikaci", speaker: "Hana Švábíková", type: "talk" },
+              { time: "13:30 - 14:30", title: "Jak vyřešit konflikt s partnerem a posílit přitom vztah", speaker: "Hana Švábíková", type: "talk" },
               { time: "14:30 - 14:45", title: "Pauza - káva a občerstvení", speaker: "", type: "break" },
-              { time: "14:45 - 15:45", title: "Business Storytelling & Leadership Trainer", speaker: "Václav Strnadel", type: "talk" },
+              { time: "14:45 - 15:45", title: "Jak prezentovat tak, aby si vás klienti pamatovali měsíce", speaker: "Václav Strnadel", type: "talk" },
               { time: "16:00", title: "Networking a volná zábava - teď už si jen povídejte!", speaker: "", type: "networking" }
             ].map((item, index) => (
               <div 
