@@ -36,16 +36,16 @@ function App() {
                 Mluvíte. Ale slyší vás?
               </h1>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Každý z nás umí komunikovat. Ale málokdo ví, jak z komunikace vytěžit maximum – jak mluvit tak, aby vám lidé rozuměli, důvěřovali vám a dělali to, co potřebujete.
+                Každý z&nbsp;nás umí komunikovat. Ale málokdo ví, jak z&nbsp;komunikace vytěžit maximum – jak mluvit tak, aby vám lidé rozuměli, důvěřovali vám a&nbsp;dělali to, co potřebujete.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Udělejte si čas 26. listopadu.<br />Pro sebe, pro svůj tým, pro obchodní partnery, pro lepší výsledky.
+                Udělejte si&nbsp;čas 26.&nbsp;listopadu.<br />Pro sebe, pro svůj tým, pro obchodní partnery, pro lepší výsledky.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Pět špičkových expertů vám během jednoho dne ukáže, jak z dobré komunikace udělat skvělou.
+                Pět špičkových expertů vám během jednoho dne ukáže, jak z&nbsp;dobré komunikace udělat skvělou.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Přijďte si pro tipy, které byste běžně sbírali roky. Žádná ochutnávka – rovnou plná porce know-how.
+                Přijďte si&nbsp;pro tipy, které byste běžně sbírali roky. Žádná ochutnávka – rovnou plná porce know-how.
               </p>
               <a href="#pricing" className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors inline-block">
                 Chci se přihlásit
@@ -71,22 +71,22 @@ function App() {
                 Komunikace, která šlape na jedničku
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Představte si, že po vašem e-mailu kandidát sám zavolá s tím, že má o pozici zájem.
+                Představte si, že po&nbsp;vašem e-mailu kandidát sám zavolá s&nbsp;tím, že má o&nbsp;pozici zájem.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Že váš tým konečně pochopí, co od něj chcete, a přestane se ptát na detaily.
+                Že váš tým konečně pochopí, co od&nbsp;něj chcete, a&nbsp;přestane se&nbsp;ptát na&nbsp;detaily.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Že zákazník po nepříjemném rozhovoru napíše: „Díky za upřímnost, takto to vyřešíme."
+                Že zákazník po&nbsp;nepříjemném rozhovoru napíše: „Díky za&nbsp;upřímnost, takto to&nbsp;vyřešíme."
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Že vaše prezentace na poradě skončí okamžitým souhlasem s rozpočtem.
+                Že vaše prezentace na&nbsp;poradě skončí okamžitým souhlasem s&nbsp;rozpočtem.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Tohle nejsou náhody. Tohle je nová úroveň komunikace, která funguje.
+                Tohle nejsou náhody. Tohle je&nbsp;nová úroveň komunikace, která funguje.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Na naší masterclass získáte konkrétní techniky, díky kterým se z běžných rozhovorů stanou momenty, které posunou vaše obchody i týmy dopředu. Bez zbytečných keců, s praktickými nástroji, které použijete hned zítra.
+                Na&nbsp;naší masterclass získáte konkrétní techniky, díky kterým se&nbsp;z&nbsp;běžných rozhovorů stanou momenty, které posunou vaše obchody i&nbsp;týmy dopředu. Bez zbytečných keců, s&nbsp;praktickými nástroji, které použijete hned zítra.
               </p>
             </div>
             
