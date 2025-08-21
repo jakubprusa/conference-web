@@ -269,7 +269,7 @@ function App() {
                     src={speaker.image} 
                     alt={speaker.name}
                     className="w-full h-full object-cover"
-                    style={{ objectPosition: 'center 30%' }}
+                    style={{ objectPosition: 'center 40%' }}
                   />
                 </div>
                 
