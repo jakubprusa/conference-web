@@ -114,8 +114,8 @@ function App() {
               { 
                 icon: "🗣️", 
                 title: "Jak říct klientovi nepříjemné věci, aniž byste ztratili obchod",
-                speaker: "Olinka Vlachynská, terapeutka a průvodkyně náročnými rozhovory",
-                desc: "Umíte mluvit s klienty slušně a profesionálně. Olinka vám ukáže, jak mluvit i o problémech tak, aby to vedlo ke spolupráci, ne ke ztrátě zakázky."
+                speaker: "Olga Vlachynská, terapeutka a průvodkyně náročnými rozhovory",
+                desc: "Umíte mluvit s klienty slušně a profesionálně. Olga vám ukáže, jak mluvit i o problémech tak, aby to vedlo ke spolupráci, ne ke ztrátě zakázky."
               },
               { 
                 icon: "🎯", 
@@ -167,7 +167,7 @@ function App() {
           <div className="space-y-4">
             {[
               { time: "09:00", title: "Úvod konference a přivítání", speaker: "", type: "start" },
-              { time: "09:00 - 10:00", title: "Terapie a průvodkyně náročnými rozhovory", speaker: "Olinka Vlachynská", type: "talk" },
+              { time: "09:00 - 10:00", title: "Terapie a průvodkyně náročnými rozhovory", speaker: "Olga Vlachynská", type: "talk" },
               { time: "10:00 - 10:15", title: "Pauza - káva a občerstvení", speaker: "", type: "break" },
               { time: "10:15 - 11:15", title: "Expertka na značku zaměstnavatele", speaker: "Hana Slačálková", type: "talk" },
               { time: "11:20 - 12:20", title: "Expert na efektivní komunikaci", speaker: "Martin Kavka", type: "talk" },
@@ -233,7 +233,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
             {[
               {
-                name: "Olinka Vlachynská",
+                name: "Olga Vlachynská",
                 title: "Terapeutka a průvodkyně náročnými rozhovory",
                 bio: "Používá zdravý rozum, silné otázky a schopnost naslouchat – a díky tomu z vás dostane to podstatné. Navíc umí složité věci vysvětlit tak, aby je pochopila i vaše babička.",
                 image: "/speakers/Olinka-Vlachynská.jpg"
