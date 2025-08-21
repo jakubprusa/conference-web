@@ -367,7 +367,14 @@ function App() {
                   ))}
                 </ul>
                 
-                <button className="w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors bg-gray-900 text-white hover:bg-gray-800">
+                <button 
+                  className={`w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors ${
+                    plan.name === "Standardní cena" 
+                      ? "bg-gray-300 text-gray-500 cursor-not-allowed" 
+                      : "bg-gray-900 text-white hover:bg-gray-800"
+                  }`}
+                  disabled={plan.name === "Standardní cena"}
+                >
                   {plan.buttonText || "Register Now"}
                 </button>
               </div>
