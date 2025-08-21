@@ -139,7 +139,7 @@ function App() {
                 icon: "🎭", 
                 title: "Jak prezentovat tak, aby si vás klienti pamatovali měsíce",
                 speaker: "Václav Strnadel, Business Storytelling & Leadership Trainer",
-                desc: "Víme, že prezentovat umíte. Ale Václav vám ukáže, jak z prezentace udělat zážitek, po kterém klient řekne „ano", aniž by nad ním musel vůbec přemýšlet."
+                desc: "Víme, že prezentovat umíte. Ale Václav vám ukáže, jak z prezentace udělat zážitek, po kterém klient řekne \"ano\", aniž by nad ním musel vůbec přemýšlet."
               }
             ].map((feature, index) => (
               <div key={index} className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
