@@ -114,8 +114,8 @@ function App() {
               { 
                 icon: "🗣️", 
                 title: "Jak říct klientovi nepříjemné věci, aniž byste ztratili obchod",
-                speaker: "Olga Vlachynská, terapeutka a průvodkyně náročnými rozhovory",
-                desc: "Umíte mluvit s klienty slušně a profesionálně. Olga vám ukáže, jak mluvit i o problémech tak, aby to vedlo ke spolupráci, ne ke ztrátě zakázky."
+                speaker: "Olinka Vlachynská, terapeutka a průvodkyně náročnými rozhovory",
+                desc: "Umíte mluvit s klienty slušně a profesionálně. Olinka vám ukáže, jak mluvit i o problémech tak, aby to vedlo ke spolupráci, ne ke ztrátě zakázky."
               },
               { 
                 icon: "🎯", 
