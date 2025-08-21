@@ -538,7 +538,7 @@ function App() {
             
             <div className="bg-white rounded-lg p-6 shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8936!2d14.4405996!3d50.0845123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94f4a0a239d7%3A0x6cf2058a3213d0c7!2sKino%20P%C5%99%C3%ADtomnost!5e0!3m2!1scs!2scz!4v1724263890123!5m2!1scs!2scz"
+                src="https://www.google.com/maps/embed?q=Kino+Přítomnost,+Praha&ll=50.0845123,14.4405996&z=17"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
