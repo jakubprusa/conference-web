@@ -105,25 +105,52 @@ function App() {
       {/* Features Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
-          <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
-            Nadpis sekce
+          <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-8 text-center">
+            Jeden den. Pět expertů. Stovky skvělých tipů
           </h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 mt-16">
             {[
-              { icon: "📈", title: "Advanced AI Applications", desc: "Learn about cutting-edge AI applications and their real-world implementations." },
-              { icon: "🤖", title: "Automation & Robotics", desc: "Discover how automation and robotics are transforming industries." },
-              { icon: "🏆", title: "Competitive Advantage", desc: "Gain insights into leveraging technology for competitive advantage." },
-              { icon: "💼", title: "Future of Work", desc: "Explore how the workplace is evolving and what skills will be essential." },
-              { icon: "📊", title: "Data-Driven Decisions", desc: "Master the art of making informed decisions based on data analytics." },
-              { icon: "🌐", title: "Ethical AI & Governance", desc: "Understand the importance of ethical AI development and governance." }
+              { 
+                icon: "🗣️", 
+                title: "Jak říct klientovi nepříjemné věci, aniž byste ztratili obchod",
+                speaker: "Olga Vlachynská, terapeutka a průvodkyně náročnými rozhovory",
+                desc: "Umíte mluvit s klienty slušně a profesionálně. Olga vám ukáže, jak mluvit i o problémech tak, aby to vedlo ke spolupráci, ne ke ztrátě zakázky."
+              },
+              { 
+                icon: "🎯", 
+                title: "Jak udělat z každého kontaktu s kandidátem konkurenční výhodu",
+                speaker: "Hanka Slačálková, expertka na značku zaměstnavatele",
+                desc: "Pravděpodobně píšete kandidátům zdvořilé odpovědi. Hanka vám ukáže, jak z každé odpovědi udělat důvod, proč si vás vybrat před konkurencí."
+              },
+              { 
+                icon: "⚙️", 
+                title: "Jak ušetřit hodiny času při komunikaci s klienty",
+                speaker: "Martin Kavka, expert na efektivní komunikaci",
+                desc: "Možná jste zruční v e-mailech. Martin vám ukáže, jak postavit systém, díky kterému budete komunikovat rychleji a přitom efektivněji."
+              },
+              { 
+                icon: "🤝", 
+                title: "Jak vyřešit konflikt s partnerem a posílit přitom vztah",
+                speaker: "Hana Švábíková, specialistka na nenásilnou komunikaci",
+                desc: "Konflikty nejspíš nějak dokážete řešit. Hana vám ukáže, jak k nim přistupovat tak, aby z nich vznikla ještě silnější spolupráce."
+              },
+              { 
+                icon: "🎭", 
+                title: "Jak prezentovat tak, aby si vás klienti pamatovali měsíce",
+                speaker: "Václav Strnadel, Business Storytelling & Leadership Trainer",
+                desc: "Víme, že prezentovat umíte. Ale Václav vám ukáže, jak z prezentace udělat zážitek, po kterém klient řekne „ano", aniž by nad ním musel vůbec přemýšlet."
+              }
             ].map((feature, index) => (
               <div key={index} className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
-                <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mb-6">
-                  <span className="text-2xl">{feature.icon}</span>
+                <div className="flex items-start space-x-4 mb-6">
+                  <div className="text-3xl flex-shrink-0 mt-1">{feature.icon}</div>
+                  <div className="flex-grow">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3 leading-tight">{feature.title}</h3>
+                    <p className="text-orange-600 font-semibold mb-4 text-sm">{feature.speaker}</p>
+                    <p className="text-gray-600 leading-relaxed">{feature.desc}</p>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">{feature.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{feature.desc}</p>
               </div>
             ))}
           </div>
