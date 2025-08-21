@@ -247,8 +247,13 @@ function App() {
                 </div>
                 
                 <div className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">
-                    {speaker.name}
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 leading-tight">
+                    {speaker.name.split(' ').map((part, i) => (
+                      <span key={i}>
+                        {part}
+                        {i < speaker.name.split(' ').length - 1 && <br />}
+                      </span>
+                    ))}
                   </h3>
                   <p className="text-orange-600 font-semibold mb-4 text-sm">
                     {speaker.title}
