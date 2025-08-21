@@ -31,15 +31,24 @@ function App() {
         {/* Hero content with container and reduced height */}
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12 py-20 lg:py-32">
           <div className="flex items-center justify-between">
-            <div className="max-w-lg">
+            <div className="max-w-2xl">
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Naučte se moderně komunikovat!
+                Mluvíte. Ale slyší vás?
               </h1>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                Každý z nás umí komunikovat. Ale málokdo ví, jak z komunikace vytěžit maximum – jak mluvit tak, aby vám lidé rozuměli, důvěřovali vám a dělali to, co potřebujete.
+              </p>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                Udělejte si čas 26. listopadu. Pro sebe, pro svůj tým, pro obchodní partnery, pro lepší výsledky.
+              </p>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                Pět špičkových expertů vám během jednoho dne ukáže, jak z dobré komunikace udělat skvělou.
+              </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Přijďte si pro tipy, které byste běžně sbírali roky. Žádná ochutnávka – rovnou plná porce know-how.
               </p>
               <a href="#pricing" className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors inline-block">
-                Secure your spot
+                Chci se přihlásit
               </a>
             </div>
 
