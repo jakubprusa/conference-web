@@ -22,7 +22,7 @@ function App() {
               <a href="#pricing" className="text-gray-700 hover:text-orange-600">Vstupenky</a>
               <a href="#contact" className="text-gray-700 hover:text-orange-600">Kontakt</a>
             </div>
-            <a href="https://form.simpleshop.cz/oPX7J/buy/" target="_blank" rel="noopener noreferrer" className="bg-orange-600 text-white px-7 py-3 rounded-full text-sm font-semibold hover:bg-orange-700 transition-colors shadow-md">
+            <a href="#pricing" className="bg-orange-600 text-white px-7 py-3 rounded-full text-sm font-semibold hover:bg-orange-700 transition-colors shadow-md">
               Chci se přihlásit
             </a>
           </div>
@@ -47,7 +47,7 @@ function App() {
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Přijďte si pro tipy, které byste běžně sbírali roky. Žádná ochutnávka – rovnou plná porce know-how.
               </p>
-              <a href="https://form.simpleshop.cz/oPX7J/buy/" target="_blank" rel="noopener noreferrer" className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors inline-block">
+              <a href="#pricing" className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors inline-block">
                 Chci se přihlásit
               </a>
             </div>
