@@ -413,7 +413,7 @@ function App() {
             
             <div className="bg-white rounded-lg p-6 shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.302394044513!2d14.417844!3d50.087451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b948c3c8f5c85%3A0x5f9f5b5c5c5c5c5c!2sKino%20P%C5%99%C3%ADtomnost!5e0!3m2!1sen!2scz!4v1234567890123"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.3097166021147!2d14.4528!3d50.0638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b95b82af04ab5%3A0x75209738d1d3b126!2sKino%20P%C5%99%C3%ADtomnost!5e0!3m2!1scs!2scz!4v1702889912345"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
