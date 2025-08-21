@@ -22,7 +22,7 @@ function App() {
               <a href="#pricing" className="text-gray-700 hover:text-orange-600">Vstupenky</a>
               <a href="#contact" className="text-gray-700 hover:text-orange-600">Kontakt</a>
             </div>
-            <a href="https://form.simpleshop.cz/oPX7J/buy/" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-colors">
+            <a href="https://form.simpleshop.cz/oPX7J/buy/" target="_blank" rel="noopener noreferrer" className="bg-orange-600 text-white px-7 py-3 rounded-full text-sm font-semibold hover:bg-orange-700 transition-colors shadow-md">
               Chci se přihlásit
             </a>
           </div>
