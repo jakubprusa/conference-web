@@ -291,14 +291,15 @@ function App() {
       <section id="faq" className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
-            Nadpis sekce
+            Často kladené otázky
           </h2>
           
           <div className="space-y-4">
             {[
-              { q: "When and where is the Tech Way Conference taking place?", a: "The conference will be held on March 15, 2024, at the Convention Center in downtown Prague." },
-              { q: "What topics will be covered at the conference?", a: "We'll cover modern communication strategies, AI applications, digital transformation, automation, and the future of work." },
-              { q: "How can I register for the conference?", a: "You can register directly on our website by selecting your preferred ticket type and completing the payment process." }
+              { q: "Pro koho je masterclass určena?", a: "Pro manažery, HR specialisty, obchodníky, podnikatele a všechny, kteří každý den komunikují s klienty, kolegy, kandidáty nebo obchodními partnery." },
+              { q: "Budou k dispozici materiály?", a: "Ano, všichni účastníci získají přístup k prezentacím, šablonám a praktickým nástrojům." },
+              { q: "Mohu získat certifikát?", a: "Ano, každý účastník obdrží certifikát o absolvování masterclass." },
+              { q: "Co když se nebudu moct zúčastnit?", a: "Pokud máte standardní lístek, získáte přístup k záznamu celé akce." }
             ].map((faq, index) => (
               <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
                 <button
