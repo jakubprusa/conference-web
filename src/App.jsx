@@ -298,7 +298,7 @@ function App() {
       {/* Pricing Section */}
       <section id="pricing" className="py-20 bg-white">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
-          <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-8 text-center">
+          <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
             Investice do vaší komunikace
           </h2>
           
