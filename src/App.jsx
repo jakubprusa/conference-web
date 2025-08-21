@@ -409,21 +409,6 @@ function App() {
                 </div>
               </div>
 
-              {/* Pořadatel */}
-              <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                  Pořadatel
-                </h3>
-                
-                <div className="space-y-4">
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">Rproduction s.r.o.</h4>
-                    <p className="text-gray-600 leading-relaxed">
-                      Pomáháme značkám a firmám růst díky obsahu, komunitě a chytré komunikaci.
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
             
             <div className="bg-white rounded-lg p-6 shadow-lg">
@@ -469,9 +454,16 @@ function App() {
           </div>
           
           <div className="border-t border-gray-700 pt-8">
-            <p className="text-gray-400 text-sm text-center">
-              © 2024 Tech Conference. All rights reserved.
-            </p>
+            <div className="text-center">
+              <h4 className="text-white font-semibold mb-2">Pořadatel</h4>
+              <p className="text-gray-400 text-sm mb-1">Rproduction s.r.o.</p>
+              <p className="text-gray-400 text-sm mb-4">
+                Pomáháme značkám a firmám růst díky obsahu, komunitě a chytré komunikaci.
+              </p>
+              <p className="text-gray-400 text-sm">
+                © 2025 Rproduction. All rights reserved.
+              </p>
+            </div>
           </div>
         </div>
       </footer>
