@@ -7,6 +7,27 @@ function App() {
     setOpenFaq(openFaq === index ? null : index);
   };
 
+  // Google Analytics event tracking
+  const trackEvent = (eventName, parameters = {}) => {
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', eventName, parameters);
+    }
+  };
+
+  const handleRegistrationClick = (location) => {
+    trackEvent('registration_click', {
+      event_category: 'engagement',
+      event_label: location
+    });
+  };
+
+  const handleContactClick = (type) => {
+    trackEvent('contact_click', {
+      event_category: 'engagement',
+      event_label: type
+    });
+  };
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -22,7 +43,7 @@ function App() {
               <a href="#pricing" className="text-gray-700 hover:text-orange-600">Vstupenky</a>
               <a href="#contact" className="text-gray-700 hover:text-orange-600">Kontakt</a>
             </div>
-            <a href="#pricing" className="bg-orange-600 text-white px-7 py-3 rounded-full text-sm font-semibold hover:bg-orange-700 transition-colors shadow-md">
+            <a href="#pricing" onClick={() => handleRegistrationClick('navbar')} className="bg-orange-600 text-white px-7 py-3 rounded-full text-sm font-semibold hover:bg-orange-700 transition-colors shadow-md">
               Chci se přihlásit
             </a>
           </div>
@@ -47,7 +68,7 @@ function App() {
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Přijďte si&nbsp;pro tipy, které byste běžně sbírali roky. Žádná ochutnávka – rovnou plná porce know-how.
               </p>
-              <a href="#pricing" className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors inline-block">
+              <a href="#pricing" onClick={() => handleRegistrationClick('hero')} className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors inline-block">
                 Chci se přihlásit
               </a>
             </div>
@@ -402,7 +423,7 @@ function App() {
             <p className="text-gray-600 text-lg mb-2">
               Je vás více z jedné firmy? Určitě nám napište a něco vymyslíme!
             </p>
-            <a href="mailto:masterclass@rproduction.cz" className="text-orange-600 hover:text-orange-700 underline text-lg font-semibold">
+            <a href="mailto:masterclass@rproduction.cz" onClick={() => handleContactClick('email_pricing')} className="text-orange-600 hover:text-orange-700 underline text-lg font-semibold">
               masterclass@rproduction.cz
             </a>
           </div>
@@ -514,7 +535,7 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">E-mail</h4>
-                      <a href="mailto:masterclass@rproduction.cz" className="text-orange-600 hover:text-orange-700 underline">
+                      <a href="mailto:masterclass@rproduction.cz" onClick={() => handleContactClick('email_contact')} className="text-orange-600 hover:text-orange-700 underline">
                         masterclass@rproduction.cz
                       </a>
                     </div>
