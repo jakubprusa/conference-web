@@ -44,7 +44,7 @@ function App() {
               <a href="#pricing" className="text-gray-700 hover:text-orange-600">Vstupenky</a>
               <a href="#contact" className="text-gray-700 hover:text-orange-600">Kontakt</a>
             </div>
-            <a href="#pricing" onClick={() => handleRegistrationClick('navbar')} className="bg-orange-600 text-white px-7 py-3 rounded-full text-sm font-semibold hover:bg-orange-700 transition-colors shadow-md">
+            <a href="#pricing" onClick={() => handleRegistrationClick('navbar')} className="bg-orange-600 text-white px-7 py-3 rounded-lg text-sm font-semibold hover:bg-orange-700 transition-colors shadow-md">
               Chci se přihlásit
             </a>
           </div>
