@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import CookieConsent from './components/CookieConsent';
 
 function App() {
   const [openFaq, setOpenFaq] = useState(null);
@@ -613,6 +614,9 @@ function App() {
           </div>
         </div>
       </footer>
+      
+      {/* Cookie Consent Banner */}
+      <CookieConsent />
     </div>
   );
 }
