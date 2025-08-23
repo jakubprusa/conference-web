@@ -58,7 +58,7 @@ function App() {
                 Mluvíte. Ale slyší vás?
               </h1>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Každý z&nbsp;nás umí komunikovat. Ale málokdo ví, jak z&nbsp;komunikace vytěžit&nbsp;maximum&nbsp;– jak&nbsp;mluvit tak, aby vám lidé rozuměli, důvěřovali vám a&nbsp;dělali to, co&nbsp;potřebujete.
+                Každý z&nbsp;nás umí komunikovat. Ale málokdo ví, jak z&nbsp;komunikace vytěžit maximum&nbsp;– jak&nbsp;mluvit tak, aby vám lidé rozuměli, důvěřovali vám a&nbsp;dělali to, co&nbsp;potřebujete.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 Udělejte si&nbsp;čas 26.&nbsp;listopadu.<br />Pro sebe, pro svůj tým, pro obchodní partnery, pro lepší výsledky.
