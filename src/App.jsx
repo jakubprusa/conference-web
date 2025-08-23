@@ -257,7 +257,7 @@ function App() {
               {
                 name: "Olga Vlachynská",
                 title: "Terapeutka a průvodkyně náročnými rozhovory",
-                bio: "Používá zdravý rozum, silné otázky a&nbsp;schopnost naslouchat – a&nbsp;díky tomu z&nbsp;vás dostane to&nbsp;podstatné. Navíc umí složité věci vysvětlit tak, aby je&nbsp;pochopila i&nbsp;vaše babička."},
+                bio: "Používá zdravý rozum, silné otázky a&nbsp;schopnost naslouchat – a&nbsp;díky tomu z&nbsp;vás dostane to&nbsp;podstatné. Navíc umí složité věci vysvětlit tak, aby je&nbsp;pochopila i&nbsp;vaše babička.",
                 image: "/speakers/Olinka-Vlachynská.jpg"
               },
               {
