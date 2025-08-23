@@ -58,7 +58,7 @@ function App() {
                 Mluvíte. Ale slyší vás?
               </h1>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Každý z&nbsp;nás umí komunikovat. Ale málokdo ví, jak z&nbsp;komunikace vytěžit maximum – jak mluvit tak, aby vám lidé rozuměli, důvěřovali vám a&nbsp;dělali to, co potřebujete.
+                Každý z&nbsp;nás umí komunikovat. Ale málokdo ví, jak z&nbsp;komunikace vytěžit maximum&nbsp;– jak&nbsp;mluvit tak, aby vám lidé rozuměli, důvěřovali vám a&nbsp;dělali to, co&nbsp;potřebujete.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 Udělejte si&nbsp;čas 26.&nbsp;listopadu.<br />Pro sebe, pro svůj tým, pro obchodní partnery, pro lepší výsledky.
@@ -67,7 +67,7 @@ function App() {
                 Pět špičkových expertů vám během jednoho dne ukáže, jak z&nbsp;dobré komunikace udělat skvělou.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Přijďte si&nbsp;pro tipy, které byste běžně sbírali roky. Žádná ochutnávka – rovnou plná porce know-how.
+                Přijďte si&nbsp;pro tipy, které byste běžně sbírali roky. Žádná ochutnávka&nbsp;– rovnou plná porce know-how.
               </p>
               <a href="#pricing" onClick={() => handleRegistrationClick('hero')} className="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors inline-block">
                 Chci se přihlásit
@@ -90,7 +90,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-8">
-                Komunikace, která šlape na jedničku
+                Komunikace, která šlape na&nbsp;jedničku
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
                 Představte si, že po&nbsp;vašem e-mailu kandidát sám zavolá s&nbsp;tím, že má o&nbsp;pozici zájem.
