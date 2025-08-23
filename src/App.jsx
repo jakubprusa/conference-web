@@ -93,22 +93,22 @@ function App() {
                 Komunikace, která šlape na&nbsp;jedničku
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Představte si, že po&nbsp;vašem e-mailu kandidát sám zavolá s&nbsp;tím, že má o&nbsp;pozici zájem.
+                Představte si, že&nbsp;po&nbsp;vašem e-mailu kandidát sám zavolá s&nbsp;tím, že&nbsp;má o&nbsp;pozici zájem.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Že váš tým konečně pochopí, co od&nbsp;něj chcete, a&nbsp;přestane se&nbsp;ptát na&nbsp;detaily.
+                Že&nbsp;váš tým konečně pochopí, co&nbsp;od&nbsp;něj chcete, a&nbsp;přestane se&nbsp;ptát na&nbsp;detaily.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Že zákazník po&nbsp;nepříjemném rozhovoru napíše: „Díky za&nbsp;upřímnost, takto to&nbsp;vyřešíme."
+                Že&nbsp;zákazník po&nbsp;nepříjemném rozhovoru napíše: „Díky za&nbsp;upřímnost, takto to&nbsp;vyřešíme."
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Že vaše prezentace na&nbsp;poradě skončí okamžitým souhlasem s&nbsp;rozpočtem.
+                Že&nbsp;vaše prezentace na&nbsp;poradě skončí okamžitým souhlasem s&nbsp;rozpočtem.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Tohle nejsou náhody. Tohle je&nbsp;nová úroveň komunikace, která funguje.
+                Tohle nejsou náhody. Tohle je&nbsp;nová úroveň komunikace, která&nbsp;funguje.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Na&nbsp;naší masterclass získáte konkrétní techniky, díky kterým se&nbsp;z&nbsp;běžných rozhovorů stanou momenty, které posunou vaše obchody i&nbsp;týmy dopředu. Bez zbytečných keců, s&nbsp;praktickými nástroji, které použijete hned zítra.
+                Na&nbsp;naší masterclass získáte konkrétní techniky, díky kterým se&nbsp;z&nbsp;běžných rozhovorů stanou momenty, které&nbsp;posunou vaše obchody i&nbsp;týmy dopředu. Bez zbytečných keců, s&nbsp;praktickými nástroji, které&nbsp;použijete hned zítra.
               </p>
             </div>
             
