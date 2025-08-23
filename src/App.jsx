@@ -137,31 +137,31 @@ function App() {
                 icon: "🗣️", 
                 title: "Jak říct klientovi nepříjemné věci, aniž byste ztratili obchod",
                 speaker: "Olga Vlachynská, terapeutka a průvodkyně náročnými rozhovory",
-                desc: "Umíte mluvit s klienty slušně a profesionálně. Olga vám ukáže, jak mluvit i o problémech tak, aby to vedlo ke spolupráci, ne ke ztrátě zakázky."
+                desc: "Umíte mluvit s&nbsp;klienty slušně a&nbsp;profesionálně. Olga vám ukáže, jak mluvit i&nbsp;o&nbsp;problémech tak, aby to&nbsp;vedlo ke&nbsp;spolupráci, ne&nbsp;ke&nbsp;ztrátě zakázky."
               },
               { 
                 icon: "🎯", 
                 title: "Jak udělat z každého kontaktu s kandidátem konkurenční výhodu",
                 speaker: "Hanka Slačálková, expertka na značku zaměstnavatele",
-                desc: "Pravděpodobně píšete kandidátům zdvořilé odpovědi. Hanka vám ukáže, jak z každé odpovědi udělat důvod, proč si vás vybrat před konkurencí."
+                desc: "Pravděpodobně píšete kandidátům zdvořilé odpovědi. Hanka vám ukáže, jak z&nbsp;každé odpovědi udělat důvod, proč si&nbsp;vás vybrat před&nbsp;konkurencí."
               },
               { 
                 icon: "⚙️", 
                 title: "Jak ušetřit hodiny času při komunikaci s klienty",
                 speaker: "Martin Kavka, expert na efektivní komunikaci",
-                desc: "Možná jste zruční v e-mailech. Martin vám ukáže, jak postavit systém, díky kterému budete komunikovat rychleji a přitom efektivněji."
+                desc: "Možná jste zruční v&nbsp;e-mailech. Martin vám ukáže, jak postavit systém, díky kterému budete komunikovat rychleji a&nbsp;přitom efektivněji."
               },
               { 
                 icon: "🤝", 
                 title: "Jak vyřešit konflikt s partnerem a posílit přitom vztah",
                 speaker: "Hana Švábíková, specialistka na nenásilnou komunikaci",
-                desc: "Konflikty nejspíš nějak dokážete řešit. Hana vám ukáže, jak k nim přistupovat tak, aby z nich vznikla ještě silnější spolupráce."
+                desc: "Konflikty nejspíš nějak dokážete řešit. Hana vám ukáže, jak k&nbsp;nim přistupovat tak, aby z&nbsp;nich vznikla ještě silnější spolupráce."
               },
               { 
                 icon: "🎭", 
                 title: "Jak prezentovat tak, aby si vás klienti pamatovali měsíce",
                 speaker: "Václav Strnadel, Business Storytelling & Leadership Trainer",
-                desc: "Víme, že prezentovat umíte. Ale Václav vám ukáže, jak z prezentace udělat zážitek, po kterém klient řekne \"ano\", aniž by nad ním musel vůbec přemýšlet."
+                desc: "Víme, že&nbsp;prezentovat umíte. Ale Václav vám ukáže, jak z&nbsp;prezentace udělat zážitek, po&nbsp;kterém klient řekne \"ano\", aniž by&nbsp;nad&nbsp;ním musel vůbec přemýšlet."
               }
             ].map((feature, index) => (
               <div key={index} className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
@@ -257,31 +257,31 @@ function App() {
               {
                 name: "Olga Vlachynská",
                 title: "Terapeutka a průvodkyně náročnými rozhovory",
-                bio: "Používá zdravý rozum, silné otázky a schopnost naslouchat – a díky tomu z vás dostane to podstatné. Navíc umí složité věci vysvětlit tak, aby je pochopila i vaše babička.",
+                bio: "Používá zdravý rozum, silné otázky a&nbsp;schopnost naslouchat – a&nbsp;díky tomu z&nbsp;vás dostane to&nbsp;podstatné. Navíc umí složité věci vysvětlit tak, aby je&nbsp;pochopila i&nbsp;vaše babička."},
                 image: "/speakers/Olinka-Vlachynská.jpg"
               },
               {
                 name: "Hanka Slačálková",
                 title: "Expertka na značku zaměstnavatele",
-                bio: "Ukazuje firmám, že značku netvoří jen kampaně, ale každý drobný moment kontaktu. Specializuje se na to, jak z obyčejné reakce na e-mail udělat zážitek, který si lidé zapamatují.",
+                bio: "Ukazuje firmám, že značku netvoří jen kampaně, ale každý drobný moment kontaktu. Specializuje se na&nbsp;to, jak z&nbsp;obyčejné reakce na&nbsp;e-mail udělat zážitek, který si&nbsp;lidé zapamatují.",
                 image: "/speakers/Hana-Slačálková.jpg"
               },
               {
                 name: "Martin Kavka",
                 title: "Expert na efektivní komunikaci",
-                bio: "Pomáhá firmám, úřadům i nezávislým profíkům psát tak, aby jejich texty lidé četli, rozuměli jim a jednali podle nich. Věří, že dobrá komunikace stojí na systému, ne náhodě.",
+                bio: "Pomáhá firmám, úřadům i&nbsp;nezávislým profíkům psát tak, aby jejich texty lidé četli, rozuměli jim a&nbsp;jednali podle nich. Věří, že&nbsp;dobrá komunikace stojí na&nbsp;systému, ne&nbsp;náhodě.",
                 image: "/speakers/Martin-Kavka.jpg"
               },
               {
                 name: "Václav Strnadel",
                 title: "Business Storytelling & Leadership Trainer",
-                bio: "Pomáhá lídrům a expertům měnit složitá data a myšlenky v příběhy, které lidé hned pochopí. Specializuje se na to, jak z obyčejné prezentace udělat zážitek.",
+                bio: "Pomáhá lídrům a&nbsp;expertům měnit složitá data a&nbsp;myšlenky v&nbsp;příběhy, které lidé hned pochopí. Specializuje se na&nbsp;to, jak z&nbsp;obyčejné prezentace udělat zážitek.",
                 image: "/speakers/Václav-Strnadel.jpg"
               },
               {
                 name: "Hana Švábíková",
                 title: "Specialistka na nenásilnou komunikaci",
-                bio: "Učí, že i ta nejtěžší zpráva se dá říct tak, aby druhý slyšel, pochopil a chtěl spolupracovat. Nenásilná komunikace pro ni není jen technika, ale způsob myšlení.",
+                bio: "Učí, že i&nbsp;ta nejtěžší zpráva se&nbsp;dá říct tak, aby druhý slyšel, pochopil a&nbsp;chtěl spolupracovat. Nenásilná komunikace pro ni není jen technika, ale způsob myšlení.",
                 image: "/speakers/Hana-Švábíková.jpg"
               }
             ].map((speaker, index) => (
