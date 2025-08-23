@@ -111,7 +111,7 @@ function App() {
                 Na&nbsp;naší masterclass získáte konkrétní techniky, díky kterým se&nbsp;z&nbsp;běžných rozhovorů stanou momenty, které&nbsp;posunou vaše obchody i&nbsp;týmy dopředu. Bez zbytečných keců, s&nbsp;praktickými nástroji, které&nbsp;použijete hned zítra.
               </p>
             </div>
-            
+
             <div className="relative">
               <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg p-8 h-80 flex items-center justify-center">
                 <div className="text-white text-center">
@@ -130,35 +130,35 @@ function App() {
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-8 text-center">
             Jeden den. Pět expertů. Stovky skvělých tipů
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-8 mt-16">
             {[
-              { 
-                icon: "🗣️", 
+              {
+                icon: "🗣️",
                 title: "Jak říct klientovi nepříjemné věci, aniž byste ztratili obchod",
                 speaker: "Olga Vlachynská, terapeutka a průvodkyně náročnými rozhovory",
                 desc: "Umíte mluvit s&nbsp;klienty slušně a&nbsp;profesionálně. Olga vám ukáže, jak mluvit i&nbsp;o&nbsp;problémech tak, aby to&nbsp;vedlo ke&nbsp;spolupráci, ne&nbsp;ke&nbsp;ztrátě zakázky."
               },
-              { 
-                icon: "🎯", 
+              {
+                icon: "🎯",
                 title: "Jak udělat z každého kontaktu s kandidátem konkurenční výhodu",
                 speaker: "Hanka Slačálková, expertka na značku zaměstnavatele",
                 desc: "Pravděpodobně píšete kandidátům zdvořilé odpovědi. Hanka vám ukáže, jak z&nbsp;každé odpovědi udělat důvod, proč si&nbsp;vás vybrat před&nbsp;konkurencí."
               },
-              { 
-                icon: "⚙️", 
+              {
+                icon: "⚙️",
                 title: "Jak ušetřit hodiny času při komunikaci s klienty",
                 speaker: "Martin Kavka, expert na efektivní komunikaci",
                 desc: "Možná jste zruční v&nbsp;e-mailech. Martin vám ukáže, jak postavit systém, díky kterému budete komunikovat rychleji a&nbsp;přitom efektivněji."
               },
-              { 
-                icon: "🤝", 
+              {
+                icon: "🤝",
                 title: "Jak vyřešit konflikt s partnerem a posílit přitom vztah",
                 speaker: "Hana Švábíková, specialistka na nenásilnou komunikaci",
                 desc: "Konflikty nejspíš nějak dokážete řešit. Hana vám ukáže, jak k&nbsp;nim přistupovat tak, aby z&nbsp;nich vznikla ještě silnější spolupráce."
               },
-              { 
-                icon: "🎭", 
+              {
+                icon: "🎭",
                 title: "Jak prezentovat tak, aby si vás klienti pamatovali měsíce",
                 speaker: "Václav Strnadel, Business Storytelling & Leadership Trainer",
                 desc: "Víme, že&nbsp;prezentovat umíte. Ale Václav vám ukáže, jak z&nbsp;prezentace udělat zážitek, po&nbsp;kterém klient řekne \"ano\", aniž by&nbsp;nad&nbsp;ním musel vůbec přemýšlet."
@@ -185,7 +185,7 @@ function App() {
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
             Program konference
           </h2>
-          
+
           <div className="space-y-4">
             {[
               { time: "09:00", title: "Úvod konference a přivítání", speaker: "", type: "start" },
@@ -199,21 +199,20 @@ function App() {
               { time: "14:45 - 15:45", title: "Jak prezentovat tak, aby si vás klienti pamatovali měsíce", speaker: "Václav Strnadel", type: "talk" },
               { time: "16:00", title: "Networking a volná zábava - teď už si jen povídejte!", speaker: "", type: "networking" }
             ].map((item, index) => (
-              <div 
-                key={index} 
-                className={`flex items-center p-6 rounded-lg border-l-4 ${
-                  item.type === 'start' ? 'border-green-500' :
+              <div
+                key={index}
+                className={`flex items-center p-6 rounded-lg border-l-4 ${item.type === 'start' ? 'border-green-500' :
                   item.type === 'talk' ? 'border-orange-500' :
-                  item.type === 'networking' ? 'border-purple-500' :
-                  'border-gray-300'
-                } bg-white shadow-sm hover:shadow-md transition-shadow`}
+                    item.type === 'networking' ? 'border-purple-500' :
+                      'border-gray-300'
+                  } bg-white shadow-sm hover:shadow-md transition-shadow`}
               >
                 <div className="flex-shrink-0 w-32">
                   <span className="text-lg font-semibold text-gray-900">
                     {item.time}
                   </span>
                 </div>
-                
+
                 <div className="flex-grow ml-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-1">
                     {item.title}
@@ -224,19 +223,18 @@ function App() {
                     </p>
                   )}
                 </div>
-                
+
                 <div className="flex-shrink-0">
-                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                    item.type === 'start' ? 'text-green-600 bg-green-50' :
+                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${item.type === 'start' ? 'text-green-600 bg-green-50' :
                     item.type === 'talk' ? 'text-orange-600 bg-orange-50' :
-                    item.type === 'networking' ? 'text-purple-600 bg-purple-50' :
-                    'text-gray-500 bg-gray-50'
-                  }`}>
+                      item.type === 'networking' ? 'text-purple-600 bg-purple-50' :
+                        'text-gray-500 bg-gray-50'
+                    }`}>
                     {item.type === 'start' ? 'Start' :
-                     item.type === 'talk' ? 'Přednáška' :
-                     item.type === 'networking' ? 'Networking' :
-                     item.type === 'break' ? 'Pauza' :
-                     'Event'}
+                      item.type === 'talk' ? 'Přednáška' :
+                        item.type === 'networking' ? 'Networking' :
+                          item.type === 'break' ? 'Pauza' :
+                            'Event'}
                   </span>
                 </div>
               </div>
@@ -251,7 +249,7 @@ function App() {
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
             Lektoři, kteří mají výsledky
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
             {[
               {
@@ -287,14 +285,14 @@ function App() {
             ].map((speaker, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow flex flex-col h-full">
                 <div className="h-64 md:h-96 lg:h-80 relative overflow-hidden bg-gray-100 flex-shrink-0">
-                  <img 
-                    src={speaker.image} 
+                  <img
+                    src={speaker.image}
                     alt={speaker.name}
                     className="w-full h-full object-cover"
                     style={{ objectPosition: 'center 40%' }}
                   />
                 </div>
-                
+
                 <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-bold text-gray-900 mb-2 leading-tight">
                     {speaker.name.split(' ').map((part, i) => (
@@ -323,20 +321,20 @@ function App() {
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
             Investice do vaší komunikace
           </h2>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { 
-                name: "Standard Pass", 
-                price: "$299", 
-                popular: false, 
-                features: ["All Conference Access", "Lunch & Coffee Breaks", "Digital Materials", "Certificate of Attendance"] 
+              {
+                name: "Standard Pass",
+                price: "$299",
+                popular: false,
+                features: ["All Conference Access", "Lunch & Coffee Breaks", "Digital Materials", "Certificate of Attendance"]
               },
-              { 
+              {
                 name: "Early Bird",
                 price: "6 990 Kč",
                 subtitle: "do 30. září",
-                popular: true, 
+                popular: true,
                 features: [
                   "Celá masterclass (5 přednášek)",
                   "Materiály a šablony ke stažení",
@@ -346,11 +344,11 @@ function App() {
                 ],
                 buttonText: "Koupit lístek"
               },
-              { 
+              {
                 name: "Standardní cena",
                 price: "7 990 Kč",
                 subtitle: "od 1. října",
-                popular: false, 
+                popular: false,
                 features: [
                   "Celá masterclass (5 přednášek)",
                   "Materiály a šablony ke stažení",
@@ -367,7 +365,7 @@ function App() {
                     <span className="bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-semibold">Časově omezené</span>
                   </div>
                 )}
-                
+
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
                   <div className="mb-2">
@@ -377,7 +375,7 @@ function App() {
                     <p className="text-gray-600 text-sm">{plan.subtitle}</p>
                   )}
                 </div>
-                
+
                 <ul className="space-y-4 mb-8">
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start">
@@ -388,9 +386,9 @@ function App() {
                     </li>
                   ))}
                 </ul>
-                
+
                 {plan.name === "Early Bird" ? (
-                  <a 
+                  <a
                     href="https://form.simpleshop.cz/oPX7J/buy/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -399,12 +397,11 @@ function App() {
                     {plan.buttonText || "Register Now"}
                   </a>
                 ) : (
-                  <button 
-                    className={`w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors ${
-                      plan.name === "Standardní cena" 
-                        ? "bg-gray-300 text-gray-500 cursor-not-allowed" 
-                        : "bg-gray-900 text-white hover:bg-gray-800"
-                    }`}
+                  <button
+                    className={`w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors ${plan.name === "Standardní cena"
+                      ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+                      : "bg-gray-900 text-white hover:bg-gray-800"
+                      }`}
                     disabled={plan.name === "Standardní cena"}
                   >
                     {plan.buttonText || "Register Now"}
@@ -413,13 +410,13 @@ function App() {
               </div>
             ))}
           </div>
-          
+
           <div className="text-center mt-8">
             <p className="text-gray-500 text-sm">
               Ceny jsou uvedeny bez DPH. Nejsme plátci DPH.
             </p>
           </div>
-          
+
           <div className="text-center mt-12">
             <p className="text-gray-600 text-lg mb-2">
               Je vás více z jedné firmy? Určitě nám napište a něco vymyslíme!
@@ -437,7 +434,7 @@ function App() {
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
             Často kladené otázky
           </h2>
-          
+
           <div className="space-y-4">
             {[
               { q: "Pro koho je masterclass určena?", a: "Pro manažery, HR specialisty, obchodníky, podnikatele a všechny, kteří každý den komunikují s klienty, kolegy, kandidáty nebo obchodními partnery." },
@@ -472,7 +469,7 @@ function App() {
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
             Kontakt a místo konání
           </h2>
-          
+
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="space-y-12">
               {/* Kde a kdy se potkáme */}
@@ -480,7 +477,7 @@ function App() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">
                   Kde a kdy se potkáme
                 </h3>
-                
+
                 <div className="space-y-4">
                   <div className="flex items-start space-x-4">
                     <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -493,7 +490,7 @@ function App() {
                       <p className="text-gray-600">26. listopadu 2024</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start space-x-4">
                     <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -505,7 +502,7 @@ function App() {
                       <p className="text-gray-600">Kino Přítomnost, Praha</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start space-x-4">
                     <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -525,7 +522,7 @@ function App() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">
                   Kontakt
                 </h3>
-                
+
                 <div className="space-y-4">
                   <div className="flex items-start space-x-4">
                     <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -541,7 +538,7 @@ function App() {
                       </a>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start space-x-4">
                     <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -557,7 +554,7 @@ function App() {
               </div>
 
             </div>
-            
+
             <div className="bg-white rounded-lg p-6 shadow-lg">
               <iframe
                 src="https://www.google.com/maps/embed?q=Kino+Přítomnost,+Praha&ll=50.0845123,14.4405996&z=17"
@@ -599,7 +596,7 @@ function App() {
               </a>
             </div>
           </div>
-          
+
           <div className="border-t border-gray-700 pt-8">
             <div className="text-center">
               <h4 className="text-white font-semibold mb-2">Pořadatel</h4>
@@ -614,7 +611,7 @@ function App() {
           </div>
         </div>
       </footer>
-      
+
       {/* Cookie Consent Banner */}
       <CookieConsent />
     </div>
