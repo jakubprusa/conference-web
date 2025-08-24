@@ -58,13 +58,13 @@ function App() {
                 Mluvíte. Ale slyší vás?
               </h1>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Každý z&nbsp;nás umí komunikovat. Ale málokdo ví, jak z&nbsp;komunikace vytěžit maximum&nbsp;– jak&nbsp;mluvit tak, aby vám lidé rozuměli, důvěřovali vám a&nbsp;dělali to, co&nbsp;potřebujete.
+                Každý z&nbsp;nás umí komunikovat. Ale málokdo ví, jak z&nbsp;komunikace vytěžit maximum&nbsp;– jak&nbsp;mluvit tak, aby vám lidé rozuměli, důvěřovali vám a&nbsp;<strong>dělali to, co&nbsp;potřebujete.</strong>
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 Udělejte si&nbsp;čas 26.&nbsp;listopadu.<br />Pro sebe, pro svůj tým, pro obchodní partnery, pro lepší výsledky.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Pět špičkových expertů vám během jednoho dne ukáže, jak z&nbsp;dobré komunikace udělat skvělou.
+                <strong>Pět špičkových expertů vám během jednoho dne ukáže, jak z&nbsp;dobré komunikace udělat skvělou.</strong>
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Přijďte si&nbsp;pro tipy, které byste běžně sbírali roky. Žádná ochutnávka&nbsp;– rovnou plná porce know-how.
@@ -105,7 +105,7 @@ function App() {
                 Že&nbsp;vaše prezentace na&nbsp;poradě skončí okamžitým souhlasem s&nbsp;rozpočtem.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Tohle nejsou náhody. Tohle je&nbsp;nová úroveň komunikace, která&nbsp;funguje.
+                <strong>Tohle nejsou náhody. Tohle je&nbsp;nová úroveň komunikace, která&nbsp;funguje.</strong>
               </p>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Na&nbsp;naší masterclass získáte konkrétní techniky, díky kterým se&nbsp;z&nbsp;běžných rozhovorů stanou momenty, které&nbsp;posunou vaše obchody i&nbsp;týmy dopředu. Bez zbytečných keců, s&nbsp;praktickými nástroji, které&nbsp;použijete hned zítra.
