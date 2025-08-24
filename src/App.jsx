@@ -197,15 +197,16 @@ function App() {
               { time: "13:30 - 14:30", title: "Jak vyřešit konflikt s partnerem a posílit přitom vztah", speaker: "Hana Švábíková", type: "talk" },
               { time: "14:30 - 14:50", title: "Pauza - káva a občerstvení", speaker: "", type: "break" },
               { time: "14:50 - 15:50", title: "Jak prezentovat tak, aby si vás klienti pamatovali měsíce", speaker: "Václav Strnadel", type: "talk" },
-              { time: "15:50 - 17:00", title: "Public chat s přednášejícími", speaker: "Všichni lektoři", type: "talk" },
+              { time: "15:50 - 17:00", title: "Public chat s přednášejícími", speaker: "Všichni lektoři", type: "panel" },
               { time: "17:00 - 18:00", title: "Networking a volná zábava - teď už si jen povídejte!", speaker: "", type: "networking" }
             ].map((item, index) => (
               <div
                 key={index}
                 className={`flex items-center p-6 rounded-lg border-l-4 ${item.type === 'start' ? 'border-green-500' :
                   item.type === 'talk' ? 'border-orange-500' :
-                    item.type === 'networking' ? 'border-purple-500' :
-                      'border-gray-300'
+                    item.type === 'panel' ? 'border-blue-500' :
+                      item.type === 'networking' ? 'border-purple-500' :
+                        'border-gray-300'
                   } bg-white shadow-sm hover:shadow-md transition-shadow`}
               >
                 <div className="flex-shrink-0 w-32">
@@ -228,14 +229,16 @@ function App() {
                 <div className="flex-shrink-0">
                   <span className={`px-3 py-1 rounded-full text-sm font-medium ${item.type === 'start' ? 'text-green-600 bg-green-50' :
                     item.type === 'talk' ? 'text-orange-600 bg-orange-50' :
-                      item.type === 'networking' ? 'text-purple-600 bg-purple-50' :
-                        'text-gray-500 bg-gray-50'
+                      item.type === 'panel' ? 'text-blue-600 bg-blue-50' :
+                        item.type === 'networking' ? 'text-purple-600 bg-purple-50' :
+                          'text-gray-500 bg-gray-50'
                     }`}>
                     {item.type === 'start' ? 'Start' :
                       item.type === 'talk' ? 'Přednáška' :
-                        item.type === 'networking' ? 'Networking' :
-                          item.type === 'break' ? 'Pauza' :
-                            'Event'}
+                        item.type === 'panel' ? 'Panelová diskuze' :
+                          item.type === 'networking' ? 'Networking' :
+                            item.type === 'break' ? 'Pauza' :
+                              'Event'}
                   </span>
                 </div>
               </div>
