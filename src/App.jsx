@@ -421,13 +421,49 @@ function App() {
             </p>
           </div>
 
-          <div className="text-center mt-12">
-            <p className="text-gray-600 text-lg mb-2">
-              Je vás více z jedné firmy? Určitě nám napište a něco vymyslíme!
-            </p>
-            <a href="mailto:masterclass@rproduction.cz" onClick={() => handleContactClick('email_pricing')} className="text-orange-600 hover:text-orange-700 underline text-lg font-semibold">
-              masterclass@rproduction.cz
-            </a>
+          {/* Group Discounts Section */}
+          <div className="mt-16 bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-10">
+            <div className="max-w-3xl mx-auto text-center">
+              <h3 className="text-3xl font-bold text-gray-900 mb-4">
+                Přijďte s&nbsp;celým týmem a&nbsp;ušetřete!
+              </h3>
+              <p className="text-lg text-gray-700 mb-8">
+                <strong>Víc lidí z&nbsp;jedné firmy = lepší efekt konference pro váš tým.</strong><br />
+                Sdílené znalosti, společná řeč, okamžitá implementace ve&nbsp;firmě.
+              </p>
+              
+              <div className="grid md:grid-cols-3 gap-6 mb-10">
+                <div className="bg-white rounded-xl p-6 shadow-md">
+                  <div className="text-4xl font-bold text-orange-600 mb-2">10%</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-1">sleva</div>
+                  <div className="text-gray-600">pro 2&nbsp;lidi z&nbsp;jedné firmy</div>
+                </div>
+                <div className="bg-white rounded-xl p-6 shadow-md">
+                  <div className="text-4xl font-bold text-orange-600 mb-2">15%</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-1">sleva</div>
+                  <div className="text-gray-600">pro 3&nbsp;lidi z&nbsp;jedné firmy</div>
+                </div>
+                <div className="bg-white rounded-xl p-6 shadow-md transform scale-105">
+                  <div className="text-4xl font-bold text-orange-600 mb-2">20%</div>
+                  <div className="text-lg font-semibold text-gray-900 mb-1">sleva</div>
+                  <div className="text-gray-600">pro 4&nbsp;a&nbsp;více lidí z&nbsp;jedné firmy</div>
+                </div>
+              </div>
+              
+              <div className="border-t border-orange-200 pt-8">
+                <p className="text-lg text-gray-700 mb-3 font-semibold">
+                  Zarezervujte místa pro váš tým ještě dnes!
+                </p>
+                <a href="mailto:masterclass@rproduction.cz?subject=Skupinová%20sleva%20na%20masterclass" 
+                   onClick={() => handleContactClick('email_group_discount')} 
+                   className="inline-block bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors">
+                  Chci skupinovou slevu
+                </a>
+                <p className="text-gray-600 mt-4">
+                  nebo napište na <a href="mailto:masterclass@rproduction.cz" className="text-orange-600 hover:text-orange-700 underline font-semibold">masterclass@rproduction.cz</a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
