@@ -326,39 +326,35 @@ function App() {
             Investice do vaší komunikace
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {[
               {
-                name: "Standard Pass",
-                price: "$299",
+                name: "Early Bird Online",
+                price: "2 500 Kč",
+                subtitle: "Časově omezené",
                 popular: false,
-                features: ["All Conference Access", "Lunch & Coffee Breaks", "Digital Materials", "Certificate of Attendance"]
-              },
-              {
-                name: "Early Bird",
-                price: "6 990 Kč",
-                subtitle: "do 30. září",
-                popular: true,
                 features: [
-                  "Celá masterclass (5 přednášek)",
+                  "Celá masterclass online",
+                  "Živý stream všech přednášek",
                   "Materiály a šablony ke stažení",
-                  "Oběd a občerstvení",
                   "Certifikát o absolvování",
                   "Přístup k záznamu na 30 dní"
                 ],
-                buttonText: "Koupit lístek"
+                buttonText: "Koupit online lístek"
               },
               {
-                name: "Standardní cena",
-                price: "7 990 Kč",
-                subtitle: "od 1. října",
-                popular: false,
+                name: "Early Bird",
+                price: "5 500 Kč",
+                subtitle: "Časově omezené",
+                popular: true,
                 features: [
-                  "Celá masterclass (5 přednášek)",
+                  "Celá masterclass naživo",
+                  "Osobní účast v Praze",
                   "Materiály a šablony ke stažení",
                   "Oběd a občerstvení",
                   "Certifikát o absolvování",
-                  "Přístup k záznamu na 30 dní"
+                  "Přístup k záznamu na 30 dní",
+                  "Networking s účastníky"
                 ],
                 buttonText: "Koupit lístek"
               }
@@ -391,26 +387,18 @@ function App() {
                   ))}
                 </ul>
 
-                {plan.name === "Early Bird" ? (
-                  <a
-                    href="https://form.simpleshop.cz/oPX7J/buy/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors bg-gray-900 text-white hover:bg-gray-800 text-center"
-                  >
-                    {plan.buttonText || "Register Now"}
-                  </a>
-                ) : (
-                  <button
-                    className={`w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors ${plan.name === "Standardní cena"
-                      ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+                <a
+                  href="https://form.simpleshop.cz/oPX7J/buy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`block w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors text-center ${
+                    plan.popular 
+                      ? "bg-orange-600 text-white hover:bg-orange-700" 
                       : "bg-gray-900 text-white hover:bg-gray-800"
-                      }`}
-                    disabled={plan.name === "Standardní cena"}
-                  >
-                    {plan.buttonText || "Register Now"}
-                  </button>
-                )}
+                  }`}
+                >
+                  {plan.buttonText}
+                </a>
               </div>
             ))}
           </div>
