@@ -170,7 +170,7 @@ function App() {
                   <div className="flex-grow">
                     <h3 className="text-xl font-bold text-gray-900 mb-3 leading-tight">{feature.title}</h3>
                     <p className="text-orange-600 font-semibold mb-4 text-sm">{feature.speaker}</p>
-                    <p className="text-gray-600 leading-relaxed">{feature.desc}</p>
+                    <p className="text-gray-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: feature.desc }} />
                   </div>
                 </div>
               </div>
@@ -309,9 +309,7 @@ function App() {
                   <p className="text-orange-600 font-semibold mb-4 text-sm">
                     {speaker.title}
                   </p>
-                  <p className="text-gray-600 text-sm leading-relaxed flex-grow">
-                    {speaker.bio}
-                  </p>
+                  <p className="text-gray-600 text-sm leading-relaxed flex-grow" dangerouslySetInnerHTML={{ __html: speaker.bio }} />
                 </div>
               </div>
             ))}
@@ -331,6 +329,7 @@ function App() {
               {
                 name: "Early Bird Online",
                 price: "2 500 Kč",
+                originalPrice: "3 500 Kč",
                 subtitle: "Časově omezené",
                 popular: false,
                 features: [
@@ -346,6 +345,7 @@ function App() {
               {
                 name: "Early Bird",
                 price: "5 500 Kč",
+                originalPrice: "7 900 Kč",
                 subtitle: "Časově omezené",
                 popular: true,
                 features: [
@@ -371,6 +371,9 @@ function App() {
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
                   <div className="mb-2">
+                    {plan.originalPrice && (
+                      <span className="text-2xl text-gray-400 line-through mr-3">{plan.originalPrice}</span>
+                    )}
                     <span className="text-4xl font-bold text-gray-900">{plan.price}</span>
                   </div>
                   {plan.subtitle && (
