@@ -99,7 +99,7 @@ function App() {
                 Že&nbsp;váš tým konečně pochopí, co&nbsp;od&nbsp;něj chcete, a&nbsp;přestane se&nbsp;ptát na&nbsp;detaily.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Že&nbsp;zákazník po&nbsp;nepříjemném rozhovoru napíše: „Díky za&nbsp;upřímnost, takto to&nbsp;vyřešíme."
+                Že&nbsp;zákazník po&nbsp;nepříjemném rozhovoru napíše:<br />„Díky za&nbsp;upřímnost, takto to&nbsp;vyřešíme."
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
                 Že&nbsp;vaše prezentace na&nbsp;poradě skončí okamžitým souhlasem s&nbsp;rozpočtem.
