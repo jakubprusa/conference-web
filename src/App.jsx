@@ -64,7 +64,7 @@ function App() {
                 Udělejte si&nbsp;čas 26.&nbsp;listopadu.<br />Pro sebe, pro svůj tým, pro obchodní partnery, pro lepší výsledky.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                <strong>Pět špičkových expertů vám během jednoho dne ukáže, jak z&nbsp;dobré komunikace udělat skvělou.</strong>
+                <strong>Šest špičkových expertů vám během jednoho dne ukáže, jak z&nbsp;dobré komunikace udělat skvělou.</strong>
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Přijďte si&nbsp;pro tipy, které byste běžně sbírali roky. Žádná ochutnávka&nbsp;– rovnou plná porce know-how.
@@ -128,11 +128,17 @@ function App() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-8 text-center">
-            Jeden den. Pět expertů. Stovky skvělých tipů
+            Jeden den. Šest expertů. Stovky skvělých tipů
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 mt-16">
             {[
+              {
+                icon: "🙌",
+                title: "Jak udržet pozornost lidí po celý den",
+                speaker: "Michal Boháček, uznávaný expert na teambuildingy",
+                desc: "Michal vám pomůže skutečně porozumět očekáváním vašeho publika a&nbsp;předá osvědčené zkušenosti s&nbsp;motivací a&nbsp;vedením od&nbsp;dělníků až&nbsp;po&nbsp;vrcholový management."
+              },
               {
                 icon: "🗣️",
                 title: "Jak říct klientovi nepříjemné věci, aniž byste ztratili obchod",
