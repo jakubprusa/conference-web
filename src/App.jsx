@@ -340,7 +340,8 @@ function App() {
                   "Certifikát o absolvování",
                   "Přístup k záznamu na 30 dní"
                 ],
-                buttonText: "Koupit online lístek"
+                buttonText: "Koupit online lístek",
+                purchaseUrl: "https://form.simpleshop.cz/gNy2R/buy/"
               },
               {
                 name: "Early Bird",
@@ -356,7 +357,8 @@ function App() {
                   "Přístup k záznamu na 30 dní",
                   "Networking s účastníky"
                 ],
-                buttonText: "Koupit lístek"
+                buttonText: "Koupit lístek",
+                purchaseUrl: "https://form.simpleshop.cz/mol7l/buy/"
               }
             ].map((plan, index) => (
               <div key={index} className={`relative rounded-xl p-8 ${plan.popular ? 'bg-orange-50 border-2 border-orange-200 transform scale-105' : 'bg-white border border-gray-200'} shadow-lg hover:shadow-xl transition-all`}>
@@ -388,7 +390,7 @@ function App() {
                 </ul>
 
                 <a
-                  href="https://form.simpleshop.cz/oPX7J/buy/"
+                  href={plan.purchaseUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`block w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors text-center ${
