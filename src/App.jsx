@@ -361,7 +361,7 @@ function App() {
                 purchaseUrl: "https://form.simpleshop.cz/mol7l/buy/"
               }
             ].map((plan, index) => (
-              <div key={index} className={`relative rounded-xl p-8 ${plan.popular ? 'bg-orange-50 border-2 border-orange-200 transform scale-105' : 'bg-white border border-gray-200'} shadow-lg hover:shadow-xl transition-all`}>
+              <div key={index} className={`relative rounded-xl p-8 ${plan.popular ? 'bg-orange-50 border-2 border-orange-200' : 'bg-white border border-gray-200'} shadow-lg hover:shadow-xl transition-all flex flex-col h-full`}>
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                     <span className="bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-semibold">Časově omezené</span>
@@ -381,7 +381,7 @@ function App() {
                   )}
                 </div>
 
-                <ul className="space-y-4 mb-8">
+                <ul className="space-y-4 mb-8 flex-grow">
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start">
                       <svg className="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -417,7 +417,7 @@ function App() {
           {/* Group Discounts Section */}
           <div className="mt-16 bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-10">
             <div className="max-w-3xl mx-auto text-center">
-              <h3 className="text-3xl font-bold text-gray-900 mb-4">
+              <h3 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
                 Přijďte s&nbsp;celým týmem a&nbsp;ušetřete!
               </h3>
               <p className="text-lg text-gray-700 mb-8">
