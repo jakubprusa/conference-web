@@ -134,12 +134,6 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8 mt-16">
             {[
               {
-                icon: "🙌",
-                title: "Jak udržet pozornost lidí po celý den",
-                speaker: "Michal Boháček, uznávaný expert na teambuildingy",
-                desc: "Michal vám pomůže skutečně porozumět očekáváním vašeho publika a&nbsp;předá osvědčené zkušenosti s&nbsp;motivací a&nbsp;vedením od&nbsp;dělníků až&nbsp;po&nbsp;vrcholový management."
-              },
-              {
                 icon: "🗣️",
                 title: "Jak říct klientovi nepříjemné věci, aniž byste ztratili obchod",
                 speaker: "Olga Vlachynská, terapeutka a průvodkyně náročnými rozhovory",
@@ -168,6 +162,12 @@ function App() {
                 title: "Jak prezentovat tak, aby si vás klienti pamatovali měsíce",
                 speaker: "Václav Strnadel, Business Storytelling & Leadership Trainer",
                 desc: "Víme, že&nbsp;prezentovat umíte. Ale Václav vám ukáže, jak z&nbsp;prezentace udělat zážitek, po&nbsp;kterém klient řekne \"ano\", aniž by&nbsp;nad&nbsp;ním musel vůbec přemýšlet."
+              },
+              {
+                icon: "🙌",
+                title: "Jak udržet pozornost lidí po celý den",
+                speaker: "Michal Boháček, uznávaný expert na teambuildingy",
+                desc: "Michal vám pomůže skutečně porozumět očekáváním vašeho publika a&nbsp;předá osvědčené zkušenosti s&nbsp;motivací a&nbsp;vedením od&nbsp;dělníků až&nbsp;po&nbsp;vrcholový management."
               }
             ].map((feature, index) => (
               <div key={index} className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
