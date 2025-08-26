@@ -441,7 +441,13 @@ function App() {
                 <div className="bg-white rounded-xl p-6 shadow-md transform scale-105 flex flex-col">
                   <div className="text-4xl font-bold text-orange-600 mb-2">20%</div>
                   <div className="text-lg font-semibold text-gray-900 mb-1">sleva</div>
-                  <div className="text-gray-600 mb-6 flex-grow">pro 4&nbsp;a&nbsp;více lidí z&nbsp;jedné firmy</div>
+                  <div className="text-gray-600 mb-4 flex-grow">
+                    pro 4&nbsp;lidi z&nbsp;jedné firmy
+                    <div className="text-sm mt-2">
+                      Je vás více než 4?<br />
+                      Napište na <a href="mailto:masterclass@rproduction.cz" className="text-orange-600 hover:text-orange-700 underline">masterclass@rproduction.cz</a>
+                    </div>
+                  </div>
                   <a href="https://form.simpleshop.cz/xKl9q/buy/" className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
                     Koupit
                   </a>
