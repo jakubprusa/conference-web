@@ -87,39 +87,28 @@ function App() {
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-8">
-                Komunikace, která šlape na&nbsp;jedničku
-              </h2>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Představte si, že&nbsp;po&nbsp;vašem e-mailu kandidát sám zavolá s&nbsp;tím, že&nbsp;má o&nbsp;pozici zájem.
-              </p>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Že&nbsp;váš tým konečně pochopí, co&nbsp;od&nbsp;něj chcete, a&nbsp;přestane se&nbsp;ptát na&nbsp;detaily.
-              </p>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Že&nbsp;zákazník po&nbsp;nepříjemném rozhovoru napíše:<br />„Díky za&nbsp;upřímnost, takto to&nbsp;vyřešíme."
-              </p>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Že&nbsp;vaše prezentace na&nbsp;poradě skončí okamžitým souhlasem s&nbsp;rozpočtem.
-              </p>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                <strong>Tohle nejsou náhody. Tohle je&nbsp;nová úroveň komunikace, která&nbsp;funguje.</strong>
-              </p>
-              <p className="text-gray-600 text-lg leading-relaxed">
-                Na&nbsp;naší masterclass získáte konkrétní techniky, díky kterým se&nbsp;z&nbsp;běžných rozhovorů stanou momenty, které&nbsp;posunou vaše obchody i&nbsp;týmy dopředu. Bez zbytečných keců, s&nbsp;praktickými nástroji, které&nbsp;použijete hned zítra.
-              </p>
-            </div>
-
-            <div className="relative">
-              <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg p-8 h-80 flex items-center justify-center">
-                <div className="text-white text-center">
-                  <h3 className="text-xl font-semibold mb-2">Conference Preview</h3>
-                  <p className="text-blue-100">Interactive presentation content</p>
-                </div>
-              </div>
-            </div>
+          <div className="text-center max-w-4xl mx-auto">
+            <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-8">
+              Komunikace, která šlape na&nbsp;jedničku
+            </h2>
+            <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              Představte si, že&nbsp;po&nbsp;vašem e-mailu kandidát sám zavolá s&nbsp;tím, že&nbsp;má o&nbsp;pozici zájem.
+            </p>
+            <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              Že&nbsp;váš tým konečně pochopí, co&nbsp;od&nbsp;něj chcete, a&nbsp;přestane se&nbsp;ptát na&nbsp;detaily.
+            </p>
+            <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              Že&nbsp;zákazník po&nbsp;nepříjemném rozhovoru napíše:<br />„Díky za&nbsp;upřímnost, takto to&nbsp;vyřešíme."
+            </p>
+            <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              Že&nbsp;vaše prezentace na&nbsp;poradě skončí okamžitým souhlasem s&nbsp;rozpočtem.
+            </p>
+            <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              <strong>Tohle nejsou náhody. Tohle je&nbsp;nová úroveň komunikace, která&nbsp;funguje.</strong>
+            </p>
+            <p className="text-gray-600 text-lg leading-relaxed">
+              Na&nbsp;naší masterclass získáte konkrétní techniky, díky kterým se&nbsp;z&nbsp;běžných rozhovorů stanou momenty, které&nbsp;posunou vaše obchody i&nbsp;týmy dopředu. Bez zbytečných keců, s&nbsp;praktickými nástroji, které&nbsp;použijete hned zítra.
+            </p>
           </div>
         </div>
       </section>
@@ -167,7 +156,7 @@ function App() {
                 icon: "🙌",
                 title: "Jak udržet pozornost lidí po celý den",
                 speaker: "Michal Boháček, uznávaný expert na teambuildingy",
-                desc: "Michal vám pomůže skutečně porozumět očekáváním vašeho publika a&nbsp;předá osvědčené zkušenosti s&nbsp;motivací a&nbsp;vedením od&nbsp;dělníků až&nbsp;po&nbsp;vrcholový management."
+                desc: "Michal je moderátor celé akce a&nbsp;provede vás celým dnem. Pomůže vám skutečně porozumět očekáváním vašeho publika a&nbsp;předá osvědčené zkušenosti s&nbsp;motivací a&nbsp;vedením od&nbsp;dělníků až&nbsp;po&nbsp;vrcholový management."
               }
             ].map((feature, index) => (
               <div key={index} className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
@@ -194,17 +183,18 @@ function App() {
 
           <div className="space-y-4">
             {[
-              { time: "09:00", title: "Úvod konference a přivítání", speaker: "", type: "start" },
-              { time: "09:00 - 10:00", title: "Jak říct klientovi nepříjemné věci, aniž byste ztratili obchod", speaker: "Olga Vlachynská", type: "talk" },
-              { time: "10:00 - 10:20", title: "Pauza - káva a občerstvení", speaker: "", type: "break" },
-              { time: "10:20 - 11:20", title: "Jak udělat z každého kontaktu s kandidátem konkurenční výhodu", speaker: "Hana Slačálková", type: "talk" },
-              { time: "11:20 - 12:20", title: "Jak ušetřit hodiny času při komunikaci s klienty", speaker: "Martin Kavka", type: "talk" },
-              { time: "12:20 - 13:30", title: "Obědová pauza", speaker: "", type: "break" },
-              { time: "13:30 - 14:30", title: "Jak vyřešit konflikt s partnerem a posílit přitom vztah", speaker: "Hana Švábíková", type: "talk" },
-              { time: "14:30 - 14:50", title: "Pauza - káva a občerstvení", speaker: "", type: "break" },
-              { time: "14:50 - 15:50", title: "Jak prezentovat tak, aby si vás klienti pamatovali měsíce", speaker: "Václav Strnadel", type: "talk" },
-              { time: "15:50 - 17:00", title: "Public chat s přednášejícími", speaker: "Všichni lektoři", type: "panel" },
-              { time: "17:00 - 18:00", title: "Networking a volná zábava - teď už si jen povídejte!", speaker: "", type: "networking" }
+              { time: "08:00 - 08:50", title: "Otevření dveří", speaker: "", type: "break" },
+              { time: "09:00 - 09:15", title: "Úvod konference a přivítání", speaker: "Michal Boháček", type: "start" },
+              { time: "09:15 - 10:15", title: "Jak říct klientovi nepříjemné věci, aniž byste ztratili obchod", speaker: "Olga Vlachynská", type: "talk" },
+              { time: "10:15 - 10:35", title: "Pauza - káva a občerstvení", speaker: "", type: "break" },
+              { time: "10:35 - 11:35", title: "Jak udělat z každého kontaktu s kandidátem konkurenční výhodu", speaker: "Hana Slačálková", type: "talk" },
+              { time: "11:35 - 12:35", title: "Jak ušetřit hodiny času při komunikaci s klienty", speaker: "Martin Kavka", type: "talk" },
+              { time: "12:35 - 13:45", title: "Obědová pauza", speaker: "", type: "break" },
+              { time: "13:45 - 14:45", title: "Jak vyřešit konflikt s partnerem a posílit přitom vztah", speaker: "Hana Švábíková", type: "talk" },
+              { time: "14:45 - 15:05", title: "Pauza - káva a občerstvení", speaker: "", type: "break" },
+              { time: "15:05 - 16:05", title: "Jak prezentovat tak, aby si vás klienti pamatovali měsíce", speaker: "Václav Strnadel", type: "talk" },
+              { time: "16:05 - 17:15", title: "Public chat s přednášejícími", speaker: "Všichni lektoři", type: "panel" },
+              { time: "17:15 - 18:15", title: "Networking a volná zábava - teď už si jen povídejte!", speaker: "", type: "networking" }
             ].map((item, index) => (
               <div
                 key={index}
