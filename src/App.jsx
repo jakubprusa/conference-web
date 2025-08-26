@@ -87,7 +87,7 @@ function App() {
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
-          <div className="text-center max-w-4xl mx-auto">
+          <div className="text-left max-w-4xl mx-auto">
             <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-8">
               Komunikace, která šlape na&nbsp;jedničku
             </h2>
