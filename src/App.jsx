@@ -426,7 +426,7 @@ function App() {
                   <div className="text-4xl font-bold text-orange-600 mb-2">10%</div>
                   <div className="text-lg font-semibold text-gray-900 mb-1">sleva</div>
                   <div className="text-gray-600 mb-6 flex-grow">pro 2&nbsp;lidi z&nbsp;jedné firmy</div>
-                  <a href="#" className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
+                  <a href="https://form.simpleshop.cz/5QVy8/buy/" className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
                     Koupit
                   </a>
                 </div>
@@ -434,7 +434,7 @@ function App() {
                   <div className="text-4xl font-bold text-orange-600 mb-2">15%</div>
                   <div className="text-lg font-semibold text-gray-900 mb-1">sleva</div>
                   <div className="text-gray-600 mb-6 flex-grow">pro 3&nbsp;lidi z&nbsp;jedné firmy</div>
-                  <a href="#" className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
+                  <a href="https://form.simpleshop.cz/WrMWa/buy/" className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
                     Koupit
                   </a>
                 </div>
@@ -442,7 +442,7 @@ function App() {
                   <div className="text-4xl font-bold text-orange-600 mb-2">20%</div>
                   <div className="text-lg font-semibold text-gray-900 mb-1">sleva</div>
                   <div className="text-gray-600 mb-6 flex-grow">pro 4&nbsp;a&nbsp;více lidí z&nbsp;jedné firmy</div>
-                  <a href="#" className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
+                  <a href="https://form.simpleshop.cz/xKl9q/buy/" className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
                     Koupit
                   </a>
                 </div>
