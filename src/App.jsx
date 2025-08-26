@@ -476,7 +476,7 @@ function App() {
 
           <div className="space-y-4">
             {[
-              { q: "Pro koho je masterclass určena?", a: "Pro manažery, HR specialisty, obchodníky, podnikatele a všechny, kteří každý den komunikují s klienty, kolegy, kandidáty nebo obchodními partnery. Čím víc vás přijde, tím lehčí bude protlačit změny ve firmě." },
+              { q: "Pro koho je masterclass určena?", a: "Pro manažery, HR specialisty, obchodníky, podnikatele a všechny, kteří každý den komunikují s klienty, kolegy, kandidáty nebo obchodními partnery.<br><br>Čím víc vás přijde, tím lehčí bude protlačit změny ve firmě." },
               { q: "Budou k dispozici materiály?", a: "Ano, všichni účastníci získají přístup k prezentacím, šablonám a praktickým nástrojům." },
               { q: "Co když se nebudu moct zúčastnit?", a: "Pokud máte standardní lístek, získáte přístup k záznamu celé akce." }
             ].map((faq, index) => (
@@ -492,7 +492,7 @@ function App() {
                 </button>
                 {openFaq === index && (
                   <div className="px-6 pb-4 bg-gray-50">
-                    <p className="text-gray-700 leading-relaxed">{faq.a}</p>
+                    <p className="text-gray-700 leading-relaxed" dangerouslySetInnerHTML={{ __html: faq.a }}></p>
                   </div>
                 )}
               </div>
