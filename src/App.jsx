@@ -564,16 +564,15 @@ function App() {
             </div>
 
             <div className="bg-white rounded-lg p-6 shadow-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?q=Kino+Přítomnost,+Praha&ll=50.0845123,14.4405996&z=17"
-                width="100%"
-                height="400"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-lg"
-              ></iframe>
+              <a href="https://maps.app.goo.gl/UjVFdp6eMydjJAdt8" target="_blank" rel="noopener noreferrer" className="block hover:opacity-90 transition-opacity">
+                <img 
+                  src="/assigment/map.png" 
+                  alt="Mapa - Kino Přítomnost, Praha"
+                  width="100%"
+                  height="400"
+                  className="rounded-lg w-full h-96 object-cover"
+                />
+              </a>
             </div>
           </div>
         </div>
