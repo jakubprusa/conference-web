@@ -510,7 +510,7 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Datum</h4>
-                      <p className="text-gray-600">26. listopadu 2024</p>
+                      <p className="text-gray-600">26. listopadu 2025</p>
                     </div>
                   </div>
 
@@ -561,7 +561,7 @@ function App() {
             <div className="bg-white rounded-lg p-6 shadow-lg">
               <a href="https://maps.app.goo.gl/UjVFdp6eMydjJAdt8" target="_blank" rel="noopener noreferrer" className="block hover:opacity-90 transition-opacity">
                 <img 
-                  src="./assigment/map.png" 
+                  src="/map.png" 
                   alt="Mapa - Kino Přítomnost, Praha"
                   width="100%"
                   height="400"
