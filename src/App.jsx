@@ -493,78 +493,83 @@ function App() {
             Kontakt a místo konání
           </h2>
 
-          <div className="grid lg:grid-cols-2 gap-12 mb-12">
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Kde a kdy se potkáme
-              </h3>
+          <div className="grid lg:grid-cols-2 gap-12">
+            <div className="space-y-12">
+              {/* Kde a kdy se potkáme */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                  Kde a kdy se potkáme
+                </h3>
 
-              <div className="space-y-4">
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
-                    </svg>
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-4">
+                    <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-1">Datum</h4>
+                      <p className="text-gray-600">26. listopadu 2025</p>
+                    </div>
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Datum</h4>
-                    <p className="text-gray-600">26. listopadu 2025</p>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-1">Místo</h4>
+                      <p className="text-gray-600">
+                        Kino Přítomnost<br />
+                        <a href="https://maps.app.goo.gl/UjVFdp6eMydjJAdt8" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:text-orange-700 underline">
+                          Siwiecova 1839/1, 130 00 Praha 3-Žižkov
+                        </a>
+                      </p>
+                    </div>
                   </div>
                 </div>
+              </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Místo</h4>
-                    <p className="text-gray-600">
-                      Kino Přítomnost<br />
-                      <a href="https://maps.app.goo.gl/UjVFdp6eMydjJAdt8" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:text-orange-700 underline">
-                        Siwiecova 1839/1, 130 00 Praha 3-Žižkov
+              {/* Kontakt */}
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                  Kontakt
+                </h3>
+
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-4">
+                    <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-1">E-mail</h4>
+                      <a href="mailto:masterclass@rproduction.cz" onClick={() => handleContactClick('email_contact')} className="text-orange-600 hover:text-orange-700 underline">
+                        masterclass@rproduction.cz
                       </a>
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>
+
             </div>
 
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Kontakt
-              </h3>
-
-              <div className="space-y-4">
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                      <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">E-mail</h4>
-                    <a href="mailto:masterclass@rproduction.cz" onClick={() => handleContactClick('email_contact')} className="text-orange-600 hover:text-orange-700 underline">
-                      masterclass@rproduction.cz
-                    </a>
-                  </div>
-                </div>
-              </div>
+            <div className="bg-white rounded-lg p-6 shadow-lg">
+              <a href="https://maps.app.goo.gl/UjVFdp6eMydjJAdt8" target="_blank" rel="noopener noreferrer" className="block hover:opacity-90 transition-opacity">
+                <img 
+                  src="/map.png" 
+                  alt="Mapa - Kino Přítomnost, Praha"
+                  width="100%"
+                  height="400"
+                  className="rounded-lg w-full h-[500px] object-cover"
+                />
+              </a>
             </div>
-          </div>
-
-          <div className="bg-white rounded-lg p-4 shadow-lg">
-            <a href="https://maps.app.goo.gl/UjVFdp6eMydjJAdt8" target="_blank" rel="noopener noreferrer" className="block hover:opacity-90 transition-opacity">
-              <img 
-                src="/map.png" 
-                alt="Mapa - Kino Přítomnost, Praha"
-                width="100%"
-                height="450"
-                className="rounded-lg w-full h-[450px] object-cover"
-              />
-            </a>
           </div>
         </div>
       </section>
