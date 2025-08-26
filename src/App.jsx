@@ -377,10 +377,10 @@ function App() {
                     <span className="text-gray-500">Early Bird</span> <span className="text-gray-900">{plan.name.replace('Early Bird ', '')}</span>
                   </h3>
                   <div className="mb-2">
+                    <div className="text-4xl font-bold text-gray-900">{plan.price}</div>
                     {plan.originalPrice && (
-                      <span className="text-2xl text-gray-400 line-through mr-3">{plan.originalPrice}</span>
+                      <div className="text-xl text-gray-400 line-through mt-1">{plan.originalPrice}</div>
                     )}
-                    <span className="text-4xl font-bold text-gray-900">{plan.price}</span>
                   </div>
                   {plan.subtitle && (
                     <p className="text-gray-600 text-sm">{plan.subtitle}</p>
