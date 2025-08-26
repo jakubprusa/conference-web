@@ -346,7 +346,7 @@ function App() {
                   "Přístup k záznamu na 30 dní"
                 ],
                 buttonText: "Koupit online lístek",
-                purchaseUrl: "https://form.simpleshop.cz/gNy2R/buy/"
+                purchaseUrl: "https://form.simpleshop.cz/GX4oB/buy/"
               },
               {
                 name: "Early Bird",
@@ -364,7 +364,7 @@ function App() {
                   "Networking s účastníky"
                 ],
                 buttonText: "Koupit lístek",
-                purchaseUrl: "https://form.simpleshop.cz/mol7l/buy/"
+                purchaseUrl: "https://form.simpleshop.cz/b5M4e/buy/"
               }
             ].map((plan, index) => (
               <div key={index} className={`relative rounded-xl p-8 ${plan.popular ? 'bg-orange-50 border-2 border-orange-200' : 'bg-white border border-gray-200'} shadow-lg hover:shadow-xl transition-all flex flex-col h-full`}>
