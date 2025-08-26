@@ -566,7 +566,7 @@ function App() {
                   alt="Mapa - Kino Přítomnost, Praha"
                   width="100%"
                   height="400"
-                  className="rounded-lg w-full h-96 object-cover"
+                  className="rounded-lg w-full h-[500px] object-cover"
                 />
               </a>
             </div>
