@@ -537,19 +537,11 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Místo</h4>
-                      <p className="text-gray-600">Kino Přítomnost, Praha</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start space-x-4">
-                    <div className="w-8 h-8 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Čas</h4>
-                      <p className="text-gray-600">09:30 – 17:00</p>
+                      <p className="text-gray-600">
+                        <a href="https://maps.app.goo.gl/UjVFdp6eMydjJAdt8" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:text-orange-700 underline">
+                          Kino Přítomnost, Siwiecova 1839/1, 130 00 Praha 3-Žižkov
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>
