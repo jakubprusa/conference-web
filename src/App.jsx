@@ -561,7 +561,7 @@ function App() {
             <div className="bg-white rounded-lg p-6 shadow-lg">
               <a href="https://maps.app.goo.gl/UjVFdp6eMydjJAdt8" target="_blank" rel="noopener noreferrer" className="block hover:opacity-90 transition-opacity">
                 <img 
-                  src="/assigment/map.png" 
+                  src="./assigment/map.png" 
                   alt="Mapa - Kino Přítomnost, Praha"
                   width="100%"
                   height="400"
