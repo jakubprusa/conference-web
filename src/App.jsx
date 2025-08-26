@@ -523,8 +523,9 @@ function App() {
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Místo</h4>
                       <p className="text-gray-600">
+                        Kino Přítomnost<br />
                         <a href="https://maps.app.goo.gl/UjVFdp6eMydjJAdt8" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:text-orange-700 underline">
-                          Kino Přítomnost, Siwiecova 1839/1, 130 00 Praha 3-Žižkov
+                          Siwiecova 1839/1, 130 00 Praha 3-Žižkov
                         </a>
                       </p>
                     </div>
