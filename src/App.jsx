@@ -334,8 +334,8 @@ function App() {
             {[
               {
                 name: "Early Bird ONLINE",
-                price: "2 500 Kč",
-                originalPrice: "3 500 Kč",
+                price: "990 Kč",
+                originalPrice: "1 990 Kč",
                 subtitle: "Časově omezené",
                 popular: false,
                 features: [
