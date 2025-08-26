@@ -333,8 +333,8 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {[
               {
-                name: "Early Bird Online",
-                price: "2 900 Kč",
+                name: "Early Bird ONLINE",
+                price: "2 500 Kč",
                 originalPrice: "3 500 Kč",
                 subtitle: "Časově omezené",
                 popular: false,
@@ -342,15 +342,14 @@ function App() {
                   "Celá masterclass online",
                   "Živý stream všech přednášek",
                   "Materiály a šablony ke stažení",
-                  "Certifikát o absolvování",
-                  "Přístup k záznamu na 30 dní"
+                  "Přístup k záznamu na 90 dní"
                 ],
-                buttonText: "Koupit online lístek",
+                buttonText: "Koupit lístek",
                 purchaseUrl: "https://form.simpleshop.cz/GX4oB/buy/"
               },
               {
-                name: "Early Bird",
-                price: "5 900 Kč",
+                name: "Early Bird ŽIVĚ",
+                price: "5 500 Kč",
                 originalPrice: "7 900 Kč",
                 subtitle: "Časově omezené",
                 popular: true,
@@ -359,8 +358,7 @@ function App() {
                   "Osobní účast v Praze",
                   "Materiály a šablony ke stažení",
                   "Oběd a občerstvení",
-                  "Certifikát o absolvování",
-                  "Přístup k záznamu na 30 dní",
+                  "Přístup k záznamu na 90 dní",
                   "Networking s účastníky"
                 ],
                 buttonText: "Koupit lístek",
@@ -370,12 +368,14 @@ function App() {
               <div key={index} className={`relative rounded-xl p-8 ${plan.popular ? 'bg-orange-50 border-2 border-orange-200' : 'bg-white border border-gray-200'} shadow-lg hover:shadow-xl transition-all flex flex-col h-full`}>
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-semibold">Časově omezené</span>
+                    <span className="bg-orange-600 text-white px-6 py-2 rounded-full text-sm font-semibold">ALL IN</span>
                   </div>
                 )}
 
                 <div className="text-center mb-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
+                  <h3 className="text-2xl font-bold mb-2">
+                    <span className="text-gray-500">Early Bird</span> <span className="text-gray-900">{plan.name.replace('Early Bird ', '')}</span>
+                  </h3>
                   <div className="mb-2">
                     {plan.originalPrice && (
                       <span className="text-2xl text-gray-400 line-through mr-3">{plan.originalPrice}</span>
@@ -476,9 +476,8 @@ function App() {
 
           <div className="space-y-4">
             {[
-              { q: "Pro koho je masterclass určena?", a: "Pro manažery, HR specialisty, obchodníky, podnikatele a všechny, kteří každý den komunikují s klienty, kolegy, kandidáty nebo obchodními partnery." },
+              { q: "Pro koho je masterclass určena?", a: "Pro manažery, HR specialisty, obchodníky, podnikatele a všechny, kteří každý den komunikují s klienty, kolegy, kandidáty nebo obchodními partnery. Čím víc vás přijde, tím lehčí bude protlačit změny ve firmě." },
               { q: "Budou k dispozici materiály?", a: "Ano, všichni účastníci získají přístup k prezentacím, šablonám a praktickým nástrojům." },
-              { q: "Mohu získat certifikát?", a: "Ano, každý účastník obdrží certifikát o absolvování masterclass." },
               { q: "Co když se nebudu moct zúčastnit?", a: "Pokud máte standardní lístek, získáte přístup k záznamu celé akce." }
             ].map((faq, index) => (
               <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
