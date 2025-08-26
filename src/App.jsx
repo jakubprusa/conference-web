@@ -593,7 +593,7 @@ function App() {
               </a>
             </div>
             <div>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="/privacy.html" className="text-gray-300 hover:text-white transition-colors">
                 Zásady ochrany osobních údajů
               </a>
             </div>
