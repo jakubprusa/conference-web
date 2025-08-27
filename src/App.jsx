@@ -3,6 +3,7 @@ import CookieConsent from './components/CookieConsent';
 
 function App() {
   const [openFaq, setOpenFaq] = useState(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleFaq = (index) => {
     setOpenFaq(openFaq === index ? null : index);
@@ -35,18 +36,62 @@ function App() {
       <section id="home" className="relative bg-gradient-to-br from-orange-50 to-orange-100 overflow-hidden">
         {/* Navigation with white background */}
         <nav className="bg-white shadow-sm relative z-10">
-          <div className="max-w-screen-xl mx-auto px-6 lg:px-12 py-4 flex justify-between items-center">
-            <div className="flex space-x-8 text-sm">
-              <a href="#home" className="text-gray-700 hover:text-orange-600">Úvod</a>
-              <a href="#about" className="text-gray-700 hover:text-orange-600">O konferenci</a>
-              <a href="#program" className="text-gray-700 hover:text-orange-600">Program</a>
-              <a href="#speakers" className="text-gray-700 hover:text-orange-600">Řečníci</a>
-              <a href="#pricing" className="text-gray-700 hover:text-orange-600">Vstupenky</a>
-              <a href="#contact" className="text-gray-700 hover:text-orange-600">Kontakt</a>
+          <div className="max-w-screen-xl mx-auto px-6 lg:px-12 py-4">
+            <div className="flex justify-between items-center">
+              {/* Logo/Title area and hamburger button */}
+              <div className="flex items-center justify-between w-full lg:w-auto">
+                <span className="text-xl font-bold text-orange-600 lg:hidden">Masterclass 2025</span>
+                
+                {/* Hamburger button */}
+                <button 
+                  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                  className="lg:hidden p-2"
+                  aria-label="Toggle menu"
+                >
+                  {mobileMenuOpen ? (
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  ) : (
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                  )}
+                </button>
+              </div>
+
+              {/* Desktop menu */}
+              <div className="hidden lg:flex justify-between items-center w-full">
+                <div className="flex space-x-8 text-sm">
+                  <a href="#home" className="text-gray-700 hover:text-orange-600">Úvod</a>
+                  <a href="#about" className="text-gray-700 hover:text-orange-600">O konferenci</a>
+                  <a href="#program" className="text-gray-700 hover:text-orange-600">Program</a>
+                  <a href="#speakers" className="text-gray-700 hover:text-orange-600">Řečníci</a>
+                  <a href="#pricing" className="text-gray-700 hover:text-orange-600">Vstupenky</a>
+                  <a href="#contact" className="text-gray-700 hover:text-orange-600">Kontakt</a>
+                </div>
+                <a href="#pricing" onClick={() => handleRegistrationClick('navbar')} className="bg-orange-600 text-white px-7 py-3 rounded-lg text-sm font-semibold hover:bg-orange-700 transition-colors shadow-md">
+                  Chci se přihlásit
+                </a>
+              </div>
             </div>
-            <a href="#pricing" onClick={() => handleRegistrationClick('navbar')} className="bg-orange-600 text-white px-7 py-3 rounded-lg text-sm font-semibold hover:bg-orange-700 transition-colors shadow-md">
-              Chci se přihlásit
-            </a>
+
+            {/* Mobile menu */}
+            {mobileMenuOpen && (
+              <div className="lg:hidden mt-4 pb-4 border-t pt-4">
+                <div className="flex flex-col space-y-3">
+                  <a href="#home" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-orange-600 py-2">Úvod</a>
+                  <a href="#about" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-orange-600 py-2">O konferenci</a>
+                  <a href="#program" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-orange-600 py-2">Program</a>
+                  <a href="#speakers" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-orange-600 py-2">Řečníci</a>
+                  <a href="#pricing" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-orange-600 py-2">Vstupenky</a>
+                  <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-orange-600 py-2">Kontakt</a>
+                  <a href="#pricing" onClick={() => { handleRegistrationClick('navbar'); setMobileMenuOpen(false); }} className="bg-orange-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-orange-700 transition-colors shadow-md text-center mt-4">
+                    Chci se přihlásit
+                  </a>
+                </div>
+              </div>
+            )}
           </div>
         </nav>
 
