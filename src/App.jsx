@@ -164,8 +164,8 @@ function App() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-8 text-center">
-            <span className="lg:hidden">Jeden den.<br />Šest expertů.<br />Stovky skvělých tipů</span>
-            <span className="hidden lg:inline">Jeden den. Šest expertů. Stovky skvělých tipů</span>
+            <span className="lg:hidden">Jeden den.<br />Šest expertů.<br />Stovky skvělých tipů.</span>
+            <span className="hidden lg:inline">Jeden den. Šest expertů. Stovky skvělých tipů.</span>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 mt-16">
