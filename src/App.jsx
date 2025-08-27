@@ -136,7 +136,8 @@ function App() {
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <div className="text-left max-w-4xl mx-auto">
             <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-8">
-              Komunikace, která šlape na&nbsp;jedničku
+              <span className="lg:hidden">Komunikace,<br />která šlape na&nbsp;jedničku</span>
+              <span className="hidden lg:inline">Komunikace, která šlape na&nbsp;jedničku</span>
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
               Představte si, že&nbsp;po&nbsp;vašem e-mailu kandidát sám zavolá s&nbsp;tím, že&nbsp;má o&nbsp;pozici zájem.
