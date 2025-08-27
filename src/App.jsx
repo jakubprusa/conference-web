@@ -120,11 +120,11 @@ function App() {
               </a>
             </div>
 
-            <div className="hidden lg:block self-end">
+            <div className="hidden lg:flex lg:items-center lg:justify-center self-end">
               <img 
-                src="/kolaz.png" 
+                src="/kolaz2.png" 
                 alt="Koláž řečníků"
-                className="w-auto h-full max-h-[500px] object-contain object-bottom"
+                className="w-auto h-full max-h-[500px] object-contain"
               />
             </div>
           </div>
