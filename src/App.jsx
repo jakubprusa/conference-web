@@ -97,7 +97,7 @@ function App() {
 
         {/* Hero content with container and reduced height */}
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12 pt-20 lg:pt-32 pb-0 relative">
-          <div className="flex items-end justify-between">
+          <div className="flex items-center justify-between">
             <div className="max-w-2xl pb-20 lg:pb-32">
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
                 <span className="lg:hidden">Mluvíte.<br />Ale slyší vás?</span>
@@ -120,7 +120,7 @@ function App() {
               </a>
             </div>
 
-            <div className="hidden lg:flex lg:items-center lg:justify-center self-end">
+            <div className="hidden lg:flex lg:items-center lg:justify-center">
               <img 
                 src="/kolaz2.png" 
                 alt="Koláž řečníků"
