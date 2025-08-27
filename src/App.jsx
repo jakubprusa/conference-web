@@ -245,44 +245,77 @@ function App() {
             ].map((item, index) => (
               <div
                 key={index}
-                className={`flex items-center p-6 rounded-lg border-l-4 ${item.type === 'start' ? 'border-green-500' :
+                className={`p-4 md:p-6 rounded-lg border-l-4 ${item.type === 'start' ? 'border-green-500' :
                   item.type === 'talk' ? 'border-orange-500' :
                     item.type === 'panel' ? 'border-blue-500' :
                       item.type === 'networking' ? 'border-purple-500' :
                         'border-gray-300'
                   } bg-white shadow-sm hover:shadow-md transition-shadow`}
               >
-                <div className="flex-shrink-0 w-32">
-                  <span className="text-lg font-semibold text-gray-900">
-                    {item.time}
-                  </span>
-                </div>
-
-                <div className="flex-grow ml-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">
+                {/* Mobile layout - stacked */}
+                <div className="md:hidden">
+                  <div className="flex justify-between items-start mb-2">
+                    <span className="text-sm font-semibold text-gray-600">
+                      {item.time}
+                    </span>
+                    <span className={`px-2 py-1 rounded-full text-xs font-medium ${item.type === 'start' ? 'text-green-600 bg-green-50' :
+                      item.type === 'talk' ? 'text-orange-600 bg-orange-50' :
+                        item.type === 'panel' ? 'text-blue-600 bg-blue-50' :
+                          item.type === 'networking' ? 'text-purple-600 bg-purple-50' :
+                            'text-gray-500 bg-gray-50'
+                      }`}>
+                      {item.type === 'start' ? 'Start' :
+                        item.type === 'talk' ? 'Přednáška' :
+                          item.type === 'panel' ? 'Panel' :
+                            item.type === 'networking' ? 'Networking' :
+                              item.type === 'break' ? 'Pauza' :
+                                'Event'}
+                    </span>
+                  </div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-1">
                     {item.title}
                   </h3>
                   {item.speaker && (
-                    <p className="text-gray-600">
+                    <p className="text-gray-600 text-sm">
                       {item.speaker}
                     </p>
                   )}
                 </div>
 
-                <div className="flex-shrink-0">
-                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${item.type === 'start' ? 'text-green-600 bg-green-50' :
-                    item.type === 'talk' ? 'text-orange-600 bg-orange-50' :
-                      item.type === 'panel' ? 'text-blue-600 bg-blue-50' :
-                        item.type === 'networking' ? 'text-purple-600 bg-purple-50' :
-                          'text-gray-500 bg-gray-50'
-                    }`}>
-                    {item.type === 'start' ? 'Start' :
-                      item.type === 'talk' ? 'Přednáška' :
-                        item.type === 'panel' ? 'Panelová diskuze' :
-                          item.type === 'networking' ? 'Networking' :
-                            item.type === 'break' ? 'Pauza' :
-                              'Event'}
-                  </span>
+                {/* Desktop layout - horizontal */}
+                <div className="hidden md:flex md:items-center">
+                  <div className="flex-shrink-0 w-32">
+                    <span className="text-lg font-semibold text-gray-900">
+                      {item.time}
+                    </span>
+                  </div>
+
+                  <div className="flex-grow ml-6">
+                    <h3 className="text-xl font-bold text-gray-900 mb-1">
+                      {item.title}
+                    </h3>
+                    {item.speaker && (
+                      <p className="text-gray-600">
+                        {item.speaker}
+                      </p>
+                    )}
+                  </div>
+
+                  <div className="flex-shrink-0">
+                    <span className={`px-3 py-1 rounded-full text-sm font-medium ${item.type === 'start' ? 'text-green-600 bg-green-50' :
+                      item.type === 'talk' ? 'text-orange-600 bg-orange-50' :
+                        item.type === 'panel' ? 'text-blue-600 bg-blue-50' :
+                          item.type === 'networking' ? 'text-purple-600 bg-purple-50' :
+                            'text-gray-500 bg-gray-50'
+                      }`}>
+                      {item.type === 'start' ? 'Start' :
+                        item.type === 'talk' ? 'Přednáška' :
+                          item.type === 'panel' ? 'Panelová diskuze' :
+                            item.type === 'networking' ? 'Networking' :
+                              item.type === 'break' ? 'Pauza' :
+                                'Event'}
+                    </span>
+                  </div>
                 </div>
               </div>
             ))}
