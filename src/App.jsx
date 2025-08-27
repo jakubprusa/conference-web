@@ -74,11 +74,12 @@ function App() {
               </a>
             </div>
 
-            <div className="hidden lg:block relative">
-              <div className="w-80 h-80 bg-green-800 rounded-full flex items-center justify-center">
-                <span className="text-white text-5xl font-bold">fotka</span>
-              </div>
-              <div className="absolute -bottom-12 -right-12 w-48 h-48 bg-orange-200 rounded-full opacity-80"></div>
+            <div className="hidden lg:block">
+              <img 
+                src="/kolaz.png" 
+                alt="Koláž řečníků"
+                className="w-auto h-full max-h-[500px] object-contain"
+              />
             </div>
           </div>
         </div>
