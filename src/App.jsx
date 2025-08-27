@@ -55,7 +55,8 @@ function App() {
           <div className="flex items-end justify-between">
             <div className="max-w-2xl pb-20 lg:pb-32">
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Mluvíte. Ale slyší vás?
+                <span className="lg:hidden">Mluvíte.<br />Ale slyší vás?</span>
+                <span className="hidden lg:inline">Mluvíte. Ale slyší vás?</span>
               </h1>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 Každý z&nbsp;nás umí komunikovat. Ale málokdo ví, jak z&nbsp;komunikace vytěžit maximum&nbsp;– jak&nbsp;mluvit tak, aby vám lidé rozuměli, důvěřovali vám a&nbsp;<strong>dělali to, co&nbsp;potřebujete.</strong>
