@@ -1,0 +1,164 @@
+**PRIVACY POLICY**
+
+**Identifikace správce**: Rybíz production s.r.o., IČO: 23485078, se sídlem Letenské náměstí 157/4, Bubeneč, 170 00 Praha 7 („**my**“).
+
+**Kontaktní údaje správce**: masterclass@rproductioncz
+
+Tímto dokumentem bychom Vás chtěli informovat, jak zpracováváme Vaše osobní údaje v souvislosti s naší masterclass, konferencí či jinými workshopy (souhrnně budeme označovat jako „**akce**“), přičemž podrobnosti jsou dostupné na této webové stránce: masterclasskomunikace.cz.
+
+Zpracování osobních údajů se řídí nařízením Evropského parlamentu a Rady (EU) 2016/679 ze dne 27\. dubna 2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů a o zrušení směrnice 95/46/ES (obecné nařízení o ochraně osobních údajů, nebo „**GDPR**“) a zákonem č. 110/2019 Sb., o zpracování osobních údajů.
+
+1. **CO BUDEME ZPRACOVÁVAT?**
+
+Vždy budeme zpracovávat jen to nejnutnější. Pro přehlednost uvádíme kategoricky, o jaké osobní údaje se jedná:
+
+* **Identifikační údaje,** kterými je zejména Vaše jméno, příjmení, identifikační číslo, či jiný identifikátor potřebný k tomu, abychom správně určili, o koho se jedná a kdo se hlásí na naše akce, případně, kdo si kupuje záznam z dané akce.
+
+* **Kontaktní údaje**, kterými je e-mailová adresa, případně telefonní číslo, pokud jej pro některou z akcí potřebujeme a vyžádáme si jej.
+
+* **Fakturační údaje,** kterými je Vaše adresa, informace o bankovním účtu, platební údaje, pokud jsou pro účely fakturace potřebné a je zvolen příslušný způsob platby.
+
+* **Další informace,** které nám v souvislosti s organizací akcí předáte, vyplníte nebo sdělíte, a to jakýmikoliv prostředky komunikace.
+
+* **Záznamy a fotografie z akcí,** kterými jsou Vaše fotografie a záznamy, které budou v průběhu organizace akcí pořízeny a dále využity.
+
+* **Cookies,** kterými jsou analytická data získaná zejména z nástroje Google Analytics.
+
+  2. **ÚČELY ZPRACOVÁNÍ OSOBNÍCH ÚDAJŮ**
+
+Získané osobní údaje jsou zpracovávány pro následující účely:
+
+1. **Účast na akci**
+
+Hlavním a primárním účelem, proč potřebujeme Vaše osobní údaje, je, abychom Vám umožnili zúčastnit se akce. Ať už je akce placená či nikoliv, budeme zpracovávat základní informace pro uzavření vzájemného smluvního vztahu, a to na základě vyplněné objednávky. Údaje následně potřebujeme proto, abychom Vás kontaktovali, zaslali Vám další informace, umožnili vstup na akci a zajistili všechny související činnosti, jako je evidence návštěvníků, správa objednávek apod.
+
+Za tímto účelem zpracováváme Vaše Identifikační údaje, Kontaktní údaje, Fakturační údaje.
+
+Právním základem pro toto zpracování je plnění smlouvy mezi Vámi a námi a nezbytnost učinit kroky na Vaši žádost před uzavřením smlouvy.
+
+Údaje jsou zpracovány po dobu uzavřené smlouvy a dále po dobu nezbytnou pro plnění povinností z takové smlouvy.
+
+2. **Ochrana našich práv**
+
+Vaše osobní údaje můžeme zpracovávat pro ochranu vlastních právních nároků a našich práv v souvislosti s existujícím smluvním vztahem a dalšími činnostmi, které provádíme.
+
+Za tímto účelem zpracováváme Vaše Identifikační údaje, Kontaktní údaje, Fakturační údaje, Další informace.
+
+Právním základem pro toto zpracování je náš oprávněný zájem na ochraně našich práv. Údaje jsou zpracovávány po dobu, ve které můžete případně uplatnit svá práva, respektive po dobu, po kterou můžeme údaje využít pro vlastní ochranu. Tato doba se nejčastěji stanovuje v rozsahu, ve kterém běží promlčecí lhůty, což může být až 10 let. V případě existujícího sporu může být tato doba ještě prodloužena na dobu trvání sporu.
+
+3. **Zákonné povinnosti**
+
+V případech, ve kterých je akce placená, můžeme zpracovávat Vaše osobní údaje také za účelem splnění všech zákonných povinností, které se na nás vztahují. Jedná se zejména o povinnosti vést účetnictví ve smyslu zákona o účetnictví a povinnosti vztahující se k daním ve smyslu příslušných daňových předpisů.
+
+Za tímto účelem zpracováváme Vaše Identifikační údaje, Kontaktní údaje, Fakturační údaje, Další informace (v rozsahu nezbytném pro splnění zákonné povinnosti).
+
+Právním základem pro toto zpracování je splnění naší právní povinnosti. Údaje jsou zpracovávány po dobu stanovenou příslušnými právními předpisy, což v oblasti účetnictví činí 5-10 let a v oblasti daní až 10 let.
+
+Poskytnutí údajů v souvislosti s tímto účelem tak je zákonným požadavkem bez kterého není možné ani uzavřít smlouvu.
+
+4. **Zasílání obchodních sdělení**
+
+Vaše osobní údaje můžeme také využívat k tomu, abychom Vám zasílali novinky, informace o dalších akcích a eventech, které organizujeme, nebo které organizují další subjekty.
+
+Za tímto účelem zpracováváme Vaše Kontaktní údaje.
+
+Právním základem pro toto zpracování je Váš souhlas se zasíláním obchodních sdělení, který jste udělili. V případě, že jste se přihlásili na naši akci a uhradili příslušnou cenu, můžeme Vám zasílat obchodní sdělení na základě našeho oprávněného zájmu, který spočívá v přímém marketingu. 
+
+Vaše osobní údaje budeme zpracovávat po dobu, dokud nám zasílání obchodních sdělení neodmítnete, což můžete učinit v každém jednotlivém e-mailu.
+
+5. **Fotografie a záznamy z akcí**
+
+V průběhu organizovaných akcí bude docházet také k zaznamenávání průběhu akce na video a pořizování fotografií z akce. Na těchto tedy může být zachycena také Vaše podoba. Vezměte prosím na vědomí, že žádným způsobem systematicky neukládáme fotografie konkrétních zachycených osob, ani je nijak netřídíme.
+
+Pokud i tak dojde k tomu, že budeme zpracovávat Záznamy a fotografie z akcí, které se Vás týkají, právním základem je náš oprávněný zájem, který spočívá v prezentaci našich akcí navenek a propagace naší společnosti.
+
+Současně s účastí na akci potvrzujete, že jste udělili svolení pro využití Vaší podoby ve smyslu § 84 zákona č. 89/2012 Sb., občanský zákoník. S ohledem na veřejný charakter organizovaných akcí zejména informujeme, že Vaše podoba může být použita pro další šíření v marketingových materiálech jako jsou sestřihy z akcí, fotografie sdílené na sociálních sítích, a další prezentační materiály. V souladu s § 85 odst. 2 občanského zákoníku se jedná o rozšiřování obvyklým způsobem, který lze vzhledem k okolnostem očekávat. Pokud byste měli jakékoliv pochybnosti či by takové sdílení pro Vás bylo nepřiměřené, neváhejte se nám ozvat na e-mail masterclass@forendors.cz.
+
+Proti tomuto zpracování můžete samozřejmě kdykoliv vznést námitku. V takovém případě bude námitka vyhodnocena jako odvolání svolení ve smyslu občanského zákoníku a z pohledu GDPR bude vyhodnocena důvodnost takové námitky.
+
+Záznamy z akcí budou uchovávány po dobu 90 na platformě, přes kterou bude probíhat stream.
+
+6. **Analýza návštěvnosti webové stránky (analytika/statistika)**
+
+   Vaše osobní údaje zpracováváme pro porozumění způsobu, jakým používáte naše webové stránky. V rámci tohoto účelu tak můžeme monitorovat návštěvnost webových stránek, analyzovat chování na webových stránkách a využívat získaná data k dalšímu vylepšování a změnám..
+
+   Za tímto účelem zpracováváme **Cookies**, a to na základě Vašeho souhlasu s užíváním cookies. Vaše osobní údaje mohou být rovněž předávány třetím stranám. Právním základem pro zpracování je zde tak Váš souhlas, který jste udělili přes cookies lištu. Osobní údaje jsou zpracovávány do odvolání Vašeho souhlasu, ale v každém případě nejvýše do uplynutí lhůty uvedené u jednotlivých cookies.
+
+   3. **SDÍLENÍ OSOBNÍCH ÚDAJŮ**
+
+Výše uvedené osobní údaje zpracováváme jako tzv. správci osobních údajů. Tedy určujeme účely a prostředky zpracování. To my jsme se rozhodli, jaké osobní údaje po Vás budeme vyžadovat v kontaktním formuláři na Webových stránkách, či jaké osobní údaje budeme zpracovávat v souvislosti s poskytováním služeb.
+
+Může se však stát, že budeme pro zpracování osobních údajů využívat také třetích stran, které nám pomáhají poskytovat naše služby. Tyto třetí strany vystupují jako naši zpracovatelé osobních údajů. Konkrétně se jedná o:
+
+* společnost Redbit s.r.o., která poskytuje řešení SimpleShop, přes které dochází k registracím;  
+* společnost NEBUDE s.r.o., jako platforma, kde může být sdílet záznam z akcí;  
+* poskytovatele systému, který zajišťuje rozesílání e-mailů a obchodních sdělení (ECOMAIL.CZ, s.r.o.);  
+* společnost Google Ireland Limited poskytující služby úložiště a Google Analytics;  
+* poskytovatel účetních služeb (smpl\_tax s.r.o.);  
+* poskytovatel streamovací platformy a platformy pro sdílení videa..
+
+Pokud sdílíme Vaše osobní údaje se správci a zpracovateli ve třetích zemích (mimo EHP), činíme tak jen v případě, kdy tyto osoby naplňují dostatečné záruky stanovené dle čl. 44 a násl. GDPR.
+
+4. **VAŠE PRÁVA PŘI ZPRACOVÁNÍ A MOŽNOST JEJICH VÝKONU**
+
+Máte právo (i) požadovat přístup k Vašim osobním údajům; (ii) odvolat Váš souhlas; (iii) požadovat opravu Vašich osobních údajů; (iv) požadovat výmaz Vašich osobních údajů; (v) požadovat omezení zpracování Vašich osobních údajů; (vi) požadovat přenositelnost Vašich osobních údajů; (vii) uplatnit námitku proti zpracování Vašich osobních údajů; nebo (viii) uplatnit stížnost u příslušného dozorového úřadu.
+
+Ve všech otázkách souvisejících se zpracováním Vašich osobních údajů, ať už se jedná o otázku, výkon práv, zaslání stížnosti k našim rukám apod., se můžete obracet prostřednictvím e-mailu uvedeného v úvodu tohoto dokumentu.
+
+1. **Právo na přístup**
+
+Máte právo získat od nás potvrzení, zda zpracováváme Vaše osobní údaje či nikoli.
+
+Pokud Vaše osobní údaje zpracováváme, máte současně právo požadovat přístup k informacím o účelu a rozsahu zpracování, příjemcích údajů, době zpracování, právu na opravu, výmaz, omezení zpracování a podání námitky proti zpracování, právu podat stížnost u dozorového úřadu a o zdrojích osobních údajů (tyto informace již jsou uvedeny v tomto dokumentu).
+
+Stejně tak nás můžete požádat o kopii zpracovávaných osobních údajů. První kopii poskytujeme bezplatně, další již mohou být zpoplatněny. Rozsah poskytnutých údajů může být omezen tak, aby nedošlo k zásahu do práv a svobod jiných osob.
+
+2. **Právo odvolat souhlas**
+
+Máte právo kdykoli odvolat souhlas se zpracováním osobních údajů. Odvolání souhlasu však nemá vliv na oprávněnost zpracování před udělením takového souhlasu, a nepovede ani k ukončení zpracování osobních údajů, které již byly anonymizovány.
+
+3. **Právo na opravu**
+
+Máte právo požadovat od nás opravu nepřesných osobních údajů, které se Vás týkají. Podle účelu zpracování můžete mít také právo na doplnění neúplných osobních údajů, a to i poskytnutím dodatečného prohlášení.
+
+4. **Právo na výmaz (právo být zapomenut)**
+
+Máte právo požadovat výmaz Vašich osobních údajů, a to v případech, kdy:
+
+* Vaše osobní údaje již nepotřebujeme pro účely, pro které byly získány či zpracovávány;
+
+* odvoláte souhlas, na základě kterého byly osobní údaje zpracovány, a neexistuje žádný další důvod pro jejich zpracování:
+
+* vznesete námitku proti zpracování a neexistují další převažující důvody pro zpracování, popř. vznesete námitku proti zpracování za účelem přímého marketingu;
+
+* osobní údaje jsou zpracovávány v rozporu s právními předpisy.
+
+Toto právo však nemůžete uplatnit v případě, kdy je zpracování potřebné pro splnění našich právních povinností či nám svěřených úkolů ve veřejném zájmu nebo pro určení, výkon či obhajobu právních nároků.
+
+5. **Právo na omezení zpracování**
+
+Máte právo požadovat omezení zpracování Vašich osobních údajů, a to v případech, kdy:
+
+* popíráte přesnost Vašich osobních údajů; v takovém případě můžete požadovat omezení zpracování do doby ověření přesnosti osobních údajů;
+
+* zpracování je v rozporu s právními předpisy a místo výmazu budete požadovat omezení zpracování osobních údajů;
+
+* Vaše osobní údaje již nepotřebujeme pro účely, pro které byly získány či zpracovávány, avšak Vy je požadujete pro určení, výkon nebo obhajobu právních nároků;
+
+* vznesli jste námitku proti zpracování osobních údajů; v takovém případě můžete požadovat omezení zpracování do doby ověření, zda naše oprávněné zájmy převažují.
+
+  6. **Právo na přenositelnost**
+
+Máte právo získat kopii Vašich osobních údajů, které zpracováváme automatizovaně na základě Vašeho souhlasu nebo pro splnění smlouvy. Tyto údaje předáme v běžně používaném a strojově čitelném formátu Vám či Vámi určenému správci, pokud to je technicky proveditelné. Rozsah poskytnutých údajů může být omezen tak, aby nedošlo k zásahu do práv a svobod jiných osob.
+
+7. **Právo na námitku**
+
+Máte právo vznést námitku proti zpracování Vašich osobních údajů, které zpracováváme na základě našeho oprávněného zájmu. Vaše údaje přestaneme zpracovávat, pokud neexistují další převažující důvody pro zpracování či pokud není zpracování potřebné pro určení, výkon nebo obhajobu právních nároků, popř. pokud vznesete námitku proti zpracování za účelem přímého marketingu.
+
+5. **PRÁVO PODAT STÍŽNOST**
+
+Vedle možnosti uplatnění práv u naší společnosti také můžete podat stížnost u příslušného dozorového úřadu, kterým je Úřad pro ochranu osobních údajů sídlící na adrese Pplk. Sochora 27, 170 00 Praha 7\.
+
+6. **ZMĚNY TĚCHTO INFORMACÍ O ZPRACOVÁNÍ**
+
+Jsme oprávněni tyto informace o zpracování čas od času měnit, proto je prosím pravidelně kontrolujte. Jakékoli změny tohoto dokumentu zveřejníme na našich webových stránkách.

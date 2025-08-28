@@ -41,7 +41,11 @@ const CookieConsent = () => {
         <div className="flex-1">
           <p className="text-gray-700 text-sm md:text-base">
             Tento web používá Google Analytics pro měření návštěvnosti a vylepšení uživatelského zážitku. 
-            Sbíráme anonymizovaná data o tom, jak web používáte.
+            Sbíráme anonymizovaná data o tom, jak web používáte. 
+            Více informací v našich{' '}
+            <a href="/terms.html" className="text-orange-600 hover:text-orange-700 underline">
+              obchodních podmínkách
+            </a>.
           </p>
         </div>
         <div className="flex gap-3 flex-shrink-0">

@@ -107,7 +107,7 @@ function App() {
                 Každý z&nbsp;nás umí komunikovat. Ale málokdo ví, jak z&nbsp;komunikace vytěžit maximum&nbsp;– jak&nbsp;mluvit tak, aby vám lidé rozuměli, důvěřovali vám a&nbsp;<strong>dělali to, co&nbsp;potřebujete.</strong>
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Udělejte si&nbsp;čas 26.&nbsp;listopadu.<br />Pro sebe, pro svůj tým, pro obchodní partnery, pro lepší výsledky.
+                Udělejte si&nbsp;čas <strong>26.&nbsp;listopadu</strong>.<br />Pro sebe, pro svůj tým, pro obchodní partnery, pro lepší výsledky.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 <strong>Šest špičkových expertů vám během jednoho dne ukáže, jak z&nbsp;dobré komunikace udělat skvělou.</strong>
@@ -227,7 +227,7 @@ function App() {
       <section id="program" className="py-20 bg-white">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
-            Program konference
+            Program Masterclass
           </h2>
 
           <div className="space-y-4">
@@ -604,7 +604,7 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Datum</h4>
-                      <p className="text-gray-600">26. listopadu 2025</p>
+                      <p className="text-gray-600"><strong>26. listopadu 2025</strong></p>
                     </div>
                   </div>
 
