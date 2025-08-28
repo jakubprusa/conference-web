@@ -30,6 +30,33 @@ function App() {
     });
   };
 
+  const handlePurchaseClick = (ticketType, price, discount = null) => {
+    trackEvent('purchase_click', {
+      event_category: 'conversion',
+      event_label: ticketType,
+      value: parseFloat(price.replace(/[^\d]/g, '')),
+      custom_parameters: {
+        ticket_type: ticketType,
+        price: price,
+        discount_type: discount
+      }
+    });
+  };
+
+  const handleNavigationClick = (section) => {
+    trackEvent('navigation_click', {
+      event_category: 'engagement',
+      event_label: section
+    });
+  };
+
+  const handleFaqClick = (question) => {
+    trackEvent('faq_click', {
+      event_category: 'engagement', 
+      event_label: question.substring(0, 50) + '...'
+    });
+  };
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -63,12 +90,12 @@ function App() {
               {/* Desktop menu */}
               <div className="hidden lg:flex justify-between items-center w-full">
                 <div className="flex space-x-8 text-sm">
-                  <a href="#home" className="text-gray-700 hover:text-orange-600">Úvod</a>
-                  <a href="#about" className="text-gray-700 hover:text-orange-600">O konferenci</a>
-                  <a href="#program" className="text-gray-700 hover:text-orange-600">Program</a>
-                  <a href="#speakers" className="text-gray-700 hover:text-orange-600">Řečníci</a>
-                  <a href="#pricing" className="text-gray-700 hover:text-orange-600">Vstupenky</a>
-                  <a href="#contact" className="text-gray-700 hover:text-orange-600">Kontakt</a>
+                  <a href="#home" onClick={() => handleNavigationClick('home')} className="text-gray-700 hover:text-orange-600">Úvod</a>
+                  <a href="#about" onClick={() => handleNavigationClick('about')} className="text-gray-700 hover:text-orange-600">O konferenci</a>
+                  <a href="#program" onClick={() => handleNavigationClick('program')} className="text-gray-700 hover:text-orange-600">Program</a>
+                  <a href="#speakers" onClick={() => handleNavigationClick('speakers')} className="text-gray-700 hover:text-orange-600">Řečníci</a>
+                  <a href="#pricing" onClick={() => handleNavigationClick('pricing')} className="text-gray-700 hover:text-orange-600">Vstupenky</a>
+                  <a href="#contact" onClick={() => handleNavigationClick('contact')} className="text-gray-700 hover:text-orange-600">Kontakt</a>
                 </div>
                 <a href="#pricing" onClick={() => handleRegistrationClick('navbar')} className="bg-orange-600 text-white px-7 py-3 rounded-lg text-sm font-semibold hover:bg-orange-700 transition-colors shadow-md">
                   Chci se přihlásit
@@ -80,12 +107,12 @@ function App() {
             {mobileMenuOpen && (
               <div className="lg:hidden mt-4 pb-4 border-t pt-4">
                 <div className="flex flex-col space-y-3">
-                  <a href="#home" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-orange-600 py-2">Úvod</a>
-                  <a href="#about" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-orange-600 py-2">O konferenci</a>
-                  <a href="#program" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-orange-600 py-2">Program</a>
-                  <a href="#speakers" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-orange-600 py-2">Řečníci</a>
-                  <a href="#pricing" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-orange-600 py-2">Vstupenky</a>
-                  <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-orange-600 py-2">Kontakt</a>
+                  <a href="#home" onClick={() => { handleNavigationClick('home'); setMobileMenuOpen(false); }} className="text-gray-700 hover:text-orange-600 py-2">Úvod</a>
+                  <a href="#about" onClick={() => { handleNavigationClick('about'); setMobileMenuOpen(false); }} className="text-gray-700 hover:text-orange-600 py-2">O konferenci</a>
+                  <a href="#program" onClick={() => { handleNavigationClick('program'); setMobileMenuOpen(false); }} className="text-gray-700 hover:text-orange-600 py-2">Program</a>
+                  <a href="#speakers" onClick={() => { handleNavigationClick('speakers'); setMobileMenuOpen(false); }} className="text-gray-700 hover:text-orange-600 py-2">Řečníci</a>
+                  <a href="#pricing" onClick={() => { handleNavigationClick('pricing'); setMobileMenuOpen(false); }} className="text-gray-700 hover:text-orange-600 py-2">Vstupenky</a>
+                  <a href="#contact" onClick={() => { handleNavigationClick('contact'); setMobileMenuOpen(false); }} className="text-gray-700 hover:text-orange-600 py-2">Kontakt</a>
                   <a href="#pricing" onClick={() => { handleRegistrationClick('navbar'); setMobileMenuOpen(false); }} className="bg-orange-600 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-orange-700 transition-colors shadow-md text-center mt-4">
                     Chci se přihlásit
                   </a>
@@ -476,6 +503,7 @@ function App() {
                   href={plan.purchaseUrl}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => handlePurchaseClick(plan.name, plan.price, 'early_bird')}
                   className={`block w-full py-4 px-6 rounded-lg font-semibold text-lg transition-colors text-center ${
                     plan.popular 
                       ? "bg-orange-600 text-white hover:bg-orange-700" 
@@ -510,7 +538,7 @@ function App() {
                   <div className="text-4xl font-bold text-orange-600 mb-2">10%</div>
                   <div className="text-lg font-semibold text-gray-900 mb-1">sleva</div>
                   <div className="text-gray-600 mb-6 flex-grow">pro 2&nbsp;lidi z&nbsp;jedné firmy</div>
-                  <a href="https://form.simpleshop.cz/5QVy8/buy/" className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
+                  <a href="https://form.simpleshop.cz/5QVy8/buy/" onClick={() => handlePurchaseClick('Group 2 people', '10% sleva', 'group_10%')} className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
                     Koupit
                   </a>
                 </div>
@@ -518,7 +546,7 @@ function App() {
                   <div className="text-4xl font-bold text-orange-600 mb-2">15%</div>
                   <div className="text-lg font-semibold text-gray-900 mb-1">sleva</div>
                   <div className="text-gray-600 mb-6 flex-grow">pro 3&nbsp;lidi z&nbsp;jedné firmy</div>
-                  <a href="https://form.simpleshop.cz/WrMWa/buy/" className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
+                  <a href="https://form.simpleshop.cz/WrMWa/buy/" onClick={() => handlePurchaseClick('Group 3 people', '15% sleva', 'group_15%')} className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
                     Koupit
                   </a>
                 </div>
@@ -526,7 +554,7 @@ function App() {
                   <div className="text-4xl font-bold text-orange-600 mb-2">20%</div>
                   <div className="text-lg font-semibold text-gray-900 mb-1">sleva</div>
                   <div className="text-gray-600 mb-6 flex-grow">pro 4&nbsp;lidi z&nbsp;jedné firmy</div>
-                  <a href="https://form.simpleshop.cz/xKl9q/buy/" className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
+                  <a href="https://form.simpleshop.cz/xKl9q/buy/" onClick={() => handlePurchaseClick('Group 4+ people', '20% sleva', 'group_20%')} className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors text-center">
                     Koupit
                   </a>
                 </div>
@@ -536,7 +564,7 @@ function App() {
                 <p className="text-gray-700">
                   <strong>Je vás více než 4?</strong><br />
                   <span className="text-gray-600">Napište nám na </span>
-                  <a href="mailto:masterclass@rproduction.cz" className="text-orange-600 hover:text-orange-700 underline font-semibold">masterclass@rproduction.cz</a>
+                  <a href="mailto:masterclass@rproduction.cz" onClick={() => handleContactClick('group_inquiry')} className="text-orange-600 hover:text-orange-700 underline font-semibold">masterclass@rproduction.cz</a>
                   <span className="text-gray-600"> a domluvíme individuální podmínky.</span>
                 </p>
               </div>
@@ -561,7 +589,7 @@ function App() {
               <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                   className="w-full px-6 py-4 text-left bg-white hover:bg-gray-50 focus:outline-none transition-colors flex justify-between items-center"
-                  onClick={() => toggleFaq(index)}
+                  onClick={() => { handleFaqClick(faq.q); toggleFaq(index); }}
                 >
                   <span className="text-lg font-semibold text-gray-900">{faq.q}</span>
                   <svg className={`w-6 h-6 text-gray-500 transform transition-transform ${openFaq === index ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
