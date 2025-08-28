@@ -424,7 +424,7 @@ function App() {
               {
                 name: "Early Bird ŽIVĚ",
                 price: "5 500 Kč",
-                originalPrice: "7 900 Kč",
+                originalPrice: "7 990 Kč",
                 subtitle: "Časově omezené",
                 popular: true,
                 features: [
@@ -671,19 +671,9 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-16">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          <div className="flex justify-center gap-8 mb-12">
             <div>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                OP video a stream
-              </a>
-            </div>
-            <div>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                ZOOÚ video a stream
-              </a>
-            </div>
-            <div>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href="/terms.html" className="text-gray-300 hover:text-white transition-colors">
                 Obchodní podmínky
               </a>
             </div>
