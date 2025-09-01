@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import CookieConsent from './components/CookieConsent';
 
 function App() {
   const [openFaq, setOpenFaq] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [hasScrolledToPricing, setHasScrolledToPricing] = useState(false);
+  const pricingRef = useRef(null);
 
   const toggleFaq = (index) => {
     setOpenFaq(openFaq === index ? null : index);
@@ -16,10 +18,60 @@ function App() {
     }
   };
 
+  // Funnel tracking - STEP 1: Page Load
+  useEffect(() => {
+    trackEvent('funnel_step', {
+      funnel_name: 'purchase_journey',
+      step_number: 1,
+      step_name: 'page_view',
+      event_category: 'funnel'
+    });
+  }, []);
+
+  // Funnel tracking - STEP 2: Scroll to Pricing
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!hasScrolledToPricing && pricingRef.current) {
+        const rect = pricingRef.current.getBoundingClientRect();
+        const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+        
+        if (isVisible) {
+          setHasScrolledToPricing(true);
+          trackEvent('funnel_step', {
+            funnel_name: 'purchase_journey',
+            step_number: 2,
+            step_name: 'pricing_viewed',
+            event_category: 'funnel',
+            method: 'scroll'
+          });
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Check on mount
+    
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [hasScrolledToPricing]);
+
   const handleRegistrationClick = (location) => {
+    // Funnel STEP 2 alternate path: Click on registration button
+    if (!hasScrolledToPricing) {
+      trackEvent('funnel_step', {
+        funnel_name: 'purchase_journey',
+        step_number: 2,
+        step_name: 'pricing_viewed',
+        event_category: 'funnel',
+        method: 'button_click',
+        button_location: location
+      });
+      setHasScrolledToPricing(true);
+    }
+    
     trackEvent('registration_click', {
       event_category: 'engagement',
-      event_label: location
+      event_label: location,
+      funnel_stage: 'interest'
     });
   };
 
@@ -31,10 +83,34 @@ function App() {
   };
 
   const handlePurchaseClick = (ticketType, price, discount = null) => {
+    // Funnel STEP 3: Purchase intent
+    trackEvent('funnel_step', {
+      funnel_name: 'purchase_journey',
+      step_number: 3,
+      step_name: 'purchase_intent',
+      event_category: 'funnel',
+      ticket_type: ticketType,
+      price: price,
+      discount: discount
+    });
+    
+    // Enhanced purchase event for conversions
+    trackEvent('begin_checkout', {
+      currency: 'CZK',
+      value: parseFloat(price.replace(/[^\d]/g, '')),
+      items: [{
+        item_name: ticketType,
+        price: parseFloat(price.replace(/[^\d]/g, '')),
+        quantity: 1,
+        discount: discount
+      }]
+    });
+    
     trackEvent('purchase_click', {
       event_category: 'conversion',
       event_label: ticketType,
       value: parseFloat(price.replace(/[^\d]/g, '')),
+      funnel_stage: 'conversion',
       custom_parameters: {
         ticket_type: ticketType,
         price: price,
@@ -424,7 +500,7 @@ function App() {
       </section>
 
       {/* Pricing Section */}
-      <section id="pricing" className="py-20 bg-white">
+      <section id="pricing" ref={pricingRef} className="py-20 bg-white">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-orange-600 mb-16 text-center">
             <span className="lg:hidden">Investice<br />do&nbsp;vaší komunikace</span>

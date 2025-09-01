@@ -15,11 +15,14 @@
       
       // Set default consent to denied
       gtag('consent', 'default', {
-        'analytics_storage': 'denied'
+        'analytics_storage': 'denied',
+        'ad_storage': 'denied'
       });
       
-      // Initialize GA4
-      gtag('config', 'G-HS88NBMVCT');
+      // Initialize GA4 without sending data until consent is granted
+      gtag('config', 'G-HS88NBMVCT', {
+        'send_page_view': false
+      });
     </script>
   </head>
   <body>

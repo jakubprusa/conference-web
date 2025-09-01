@@ -17,8 +17,11 @@ const CookieConsent = () => {
   const enableGA4 = () => {
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('consent', 'update', {
-        'analytics_storage': 'granted'
+        'analytics_storage': 'granted',
+        'ad_storage': 'granted'
       });
+      // Send the initial page view after consent is granted
+      window.gtag('event', 'page_view');
     }
   };
 
